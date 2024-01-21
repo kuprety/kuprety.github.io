@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--Kritika Uprety-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>kritika</title>
+</head>
+
+<body>
+<div id="wrapper">
+   
+    <nav>
+        <ul>
+            <li><a href="index.html" id="name">KRITIKA UPRETY</a></li>
+            <div id="navbar-text">
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+             </div>
+        </ul>
+    </nav>
+
+    <header class="center">
+        <div class="img-container">
+            
+        <h1>hi, i'm kritika!</h1>
+    </div>   
+    </header>
+
+
+
+
+    <figure>
+        <div class="card">
+            <img src="images/sketch.PNG">
+        </div>
+    </figure>
+    <br>
+    <br>
+
+
+
+    <marquee direction="left" 
+        loop="infinite" scrollamount="10">
+        ACTIVIST
+        CODER
+        DESIGNER
+        STUDENT
+        INTERROGATOR
+        VISUALIZER
+        HOLISTICTHINKER
+        READER
+        COLLABORATOR
+        GLOBALTHINKER
+        IDEATOR
+        LIFELONGLEARNER
+        
+    </marquee>
+   
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+<button id="play">flip colors</button>
+<script>
+    let body = document.querySelector('body');
+    let header = document.querySelector('header');
+    let marquee = document.querySelector('marquee');
+
+
+    let isFlipped = false;
+
+    document.querySelector('#play').addEventListener('click', function() {
+       
+        isFlipped = !isFlipped;
+       
+        if (isFlipped) {
+
+       
+        body.style.backgroundColor = '#A41623';
+
+
+
+        header.querySelector('h1').style.color = 'rgb(255, 196, 202)';
+
+        marquee.style.color = '#A41623';
+marquee.style.backgroundColor = 'rgb(255, 196, 202)';
+marquee.style.border = '1px solid rgb(255, 196, 202)';
+
+}
+else {
+     
+    body.style.backgroundColor = 'rgb(255, 196, 202)';
+
+   
+     
+       
+
+
+        header.querySelector('h1').style.color = '#A41623';
+
+        marquee.style.color = 'white';
+marquee.style.backgroundColor = '#A41623';
+marquee.style.border = '1px solid #A41623';
+}
+
+document.querySelectorAll('nav li a').forEach(function(link) {
+
+            link.addEventListener('mouseover', function() {
+                link.style.color = isFlipped ? 'rgb(255, 196, 202)' : '#A41623';
+            });
+            link.addEventListener('mouseout', function() {
+                link.style.color = '';
+            });
+        });
+
+});
+
+
+</script>
+
+
+
+<footer>
+    <br>
+    <small>
+        ©2023. Made with <span style="color: #A41623; padding: 0 3px;">♥</span> by KRITIKA UPRETY
+    </small>
+    <br>
+</footer>
+
+</div>
+</body>
+
+
+
+
+</html>

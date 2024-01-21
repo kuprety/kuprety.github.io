@@ -1,0 +1,193 @@
+/*Kritika Uprety*/
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background-color: rgb(255, 196, 202);
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    font-size: larger;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    margin-right: 2.6%;
+    margin-left: auto;
+    padding: 1.1%;
+    word-spacing: 1em;
+    height: 80px;
+}
+
+
+
+nav li {
+    vertical-align: middle;
+    display: inline;
+    margin-left: 11px;
+}
+
+#navbar-text{
+    font-size: 13pt;
+    float: right;
+  padding:15px 0 0 0
+}
+nav li a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+nav div li a:hover {
+    color: #A41623;
+    border-bottom: 1.2px solid #A41623;
+}
+
+
+
+header h1 {
+    position: relative;
+    margin-top: 20px;
+    color: #A41623;
+    letter-spacing: 1px;
+    font-size: 3em;
+}
+
+img[src="images/flower-icon.png"] {
+    width: 40px;
+    height: 40px;
+    padding:0px 0px 0px 10px;
+}
+
+#img-container {
+    display: block;
+
+}
+
+
+
+footer {
+    background-color: #E999A1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    margin-top: 1%;
+}
+
+footer small {
+    color: white;
+    text-align: center;
+
+}
+
+#wrapper {
+    text-align: center;
+
+    padding: 0px;
+}
+#wrapper h2, h3, p, footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img[src="images/kritika1.JPEG"] {
+    width: 612.7px;
+    height: 396px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    position: relative;
+
+}
+
+
+.card img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 36%;
+  height: auto;
+
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: larger;
+}
+
+#name {
+
+    font-size: 13pt;
+
+    float: left;
+  padding:15px 0 0 0;
+  word-spacing: 4px;
+}
+
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#intro {
+    background-color: #A41623;
+    border: 4px solid A41623;
+    color: white;
+
+}
+
+#intro p {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 55%;
+
+    text-align: center;
+
+}
+
+marquee {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #A41623;
+    border: #A41623 1px;
+    color: white;
+    word-spacing: 80px;
+    font-size: larger;
+    letter-spacing: 5px;
+}
+
+#play {
+    border:black 3pt solid;
+    background-color: black;
+    color: white;
+    font-size: 12pt;
+    width: 8%;
+    height: 30px;
+    border-radius: 20pt;
+    margin-bottom: 1.8%;
+}
+
+#play:hover {
+
+    cursor: pointer;
+ 
+}

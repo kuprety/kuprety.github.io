@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--Kritika Uprety-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="contact.css">
+    <title>contact</title>
+</head>
+
+<body>
+<div id="wrapper">
+   
+    <nav>
+        <ul>
+            <li><a href="index.html" id="name">KRITIKA UPRETY</a></li>
+            <div id="navbar-text">
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+             </div>
+        </ul>
+    </nav>
+    <div class="flex-container">
+       <header class="center">
+        <div class="img-container">
+        <h2>LET'S <br> TALK! :)</h2>
+        <p>I’d really love to hear what you have to say. If you want to know more about me or my work, or if you would just like to say hello, send me a message. Let's connect!
+       </p>
+    </div>   
+    </header>
+
+    <section id="contact-form">
+        <form action="" method="get" onsubmit="submitForm(event)">
+  
+       <br>
+        <fieldset>
+            <legend>CONTACT FORM</legend>
+            <div id="fullname">
+      
+        <label for="form_first_name">
+            <br>
+            <input type="text" name="first_name" placeholder="First Name">
+        </label>
+<label for="form_last_name">
+            <br>
+            <input type="text" name="last_name" placeholder="Last Name">
+        </label>
+    </div>
+        <label for="form_email_address">
+            <br>
+            <input type="email" name="email" placeholder="Email">
+        </label>
+
+            <br>
+            <br>
+      
+<br>
+<label for="form_message_box">
+
+<br>
+<textarea name ="message" rows="5" cols ="50" placeholder="Type your message here..."></textarea>
+</label>
+<br>
+<div id="buttons">
+    <input type="reset">
+    <input type="submit" onclick="submitForm()">
+</div>
+</fieldset>   
+</form>
+</section>
+<div id="confirmation" style="display: none;">
+    <p>Thank you for your submission!</p>
+</div>
+
+</div>
+<br>
+<br>
+<br>
+
+<footer>
+    <br>
+    <small>
+        ©2023. Made with <span style="color: #A41623; padding: 0 3px;">♥</span> by KRITIKA UPRETY
+    </small>
+    <br>
+</footer>
+
+
+</div>
+
+<script>
+    function submitForm(event) {
+        event.preventDefault();
+
+        document.getElementById('confirmation').style.display = 'block';
+    }
+</script>
+
+
+</body>
+
+
+
+
+</html>

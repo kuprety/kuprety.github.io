@@ -1,0 +1,189 @@
+/*Kritika Uprety*/
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background-color: rgb(255, 196, 202);
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+header {
+    font-size: larger;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header h1 {
+    position: relative;
+    margin-top: 1.4%;
+    color: #C75862;
+    letter-spacing: 1px;
+    font-size: 3.8em;
+}
+
+
+nav {
+    margin-right: 2.6%;
+    margin-left: auto;
+    padding: 1.1%;
+    word-spacing: 1em;
+    height: 80px;
+}
+
+
+
+nav li {
+    vertical-align: middle;
+    display: inline;
+    margin-left: 11px;
+}
+
+#navbar-text{
+    font-size: 13pt;
+    float: right;
+  padding:15px 0 0 0
+}
+nav li a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+nav div li a:hover {
+    color: #A41623;
+    border-bottom: 1.2px solid #A41623;
+}
+    
+#name {
+
+    font-size: 13pt;
+
+    float: left;
+  padding:15px 0 0 0;
+  word-spacing: 4px;
+}
+
+
+
+img[src="images/cat.gif"] {
+    position: absolute; 
+    width: 5%;
+    height: auto;
+    top: 30%; 
+    right: 76%; 
+}
+
+img[src="images/panda.gif"] {
+    position: absolute; 
+    width: 4.5%;
+    height: auto;
+    top: 60%; 
+    right: 62%; 
+}
+
+
+img[src="images/heart.gif"] {
+    position: absolute; 
+    width: 4%;
+    height: auto;
+    top: 17%; 
+    right: 36%; 
+}
+
+#wrapper {
+    text-align: center;
+    padding: 0px;
+}
+
+#wrapper h2, h3, p, footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    background-color: #E999A1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;  
+}
+
+footer small {
+    color: white;
+    text-align: center;
+
+}
+
+
+#img-container {
+    text-align: center;
+    display: block;
+}
+
+
+
+
+img[src="images/me_square.jpg"] {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto; 
+    border: 25px solid #A41623;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    top: -54px; 
+
+
+    
+
+}
+
+#about_me {
+    color: black;
+    width: 650px;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
+#about_me p {
+    text-align: left;
+    font-size: 15px;
+}
+
+#connect {
+    background-color: #E999A1;
+    border: #E999A1 5px solid;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-right: 53%;
+    height: 12%;
+    width: 38%;
+    font-size: 12pt;
+    color: #A41623;
+    border-radius: 20px;
+
+}
+
+#connect:hover {
+    background-color: #A41623;
+    border: #A41623 5px solid;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-right: 53%;
+    height: 12%;
+    width: 38%;
+    font-size: 12pt;
+    color: #E999A1;
+    border-radius: 20px; 
+}
