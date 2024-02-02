@@ -81,6 +81,26 @@ footer small {
 }
 
 
+#learnMore {
+    color: white;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13.5pt;
+    border: black 2px solid;
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
+
+    #learnMore:hover {
+        cursor: pointer;
+        color: black;
+        background-color: white;
+        border: white 2px solid;
+
+    }
+
 header h1 {
     position: relative;
     margin-top: 1.8%;
