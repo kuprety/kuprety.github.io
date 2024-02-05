@@ -35,6 +35,7 @@ nav {
 
 
 
+
 nav li {
     vertical-align: middle;
     display: inline;
@@ -69,30 +70,7 @@ nav div li a:hover {
 
 
 
-img[src="images/cat.gif"] {
-    position: absolute; 
-    width: 5%;
-    height: auto;
-    top: 30%; 
-    right: 76%; 
-}
 
-img[src="images/panda.gif"] {
-    position: absolute; 
-    width: 4.5%;
-    height: auto;
-    top: 60%; 
-    right: 62%; 
-}
-
-
-img[src="images/heart.gif"] {
-    position: absolute; 
-    width: 4%;
-    height: auto;
-    top: 17%; 
-    right: 36%; 
-}
 
 #wrapper {
     text-align: center;
@@ -130,23 +108,6 @@ footer small {
 
 
 
-
-img[src="images/me_square.jpg"] {
-    width: 20%;
-    height: auto;
-    display: block;
-    margin-left: 15%;
-    margin-right: auto; 
-    border: 25px solid #A41623;
-    border-radius: 50%;
-    float: left;
-    position: relative;
-    top: -54px; 
-
-
-    
-
-}
 
 #about_me {
     color: black;
@@ -186,4 +147,60 @@ img[src="images/me_square.jpg"] {
     font-size: 12pt;
     color: #E999A1;
     border-radius: 20px; 
+}
+
+
+img[src="images/heart.gif"] {
+    position: absolute; 
+    width: 4%;
+    height: auto;
+    top: 17%; 
+    right: 36%; 
+}
+
+
+
+img[src="images/panda.gif"] {
+    top: 180px;    
+    right: 63%;
+    width: 4.5%;
+}
+
+img[src="images/cat.gif"] {
+    top: -35px;    
+
+    right: 73%;
+    margin-right: 5%;
+    width: 5.2%; 
+}
+
+
+img[src="images/cat.gif"],
+img[src="images/panda.gif"] {
+    position: absolute;
+    height: auto;
+}
+
+
+img[src="images/me_square.jpg"] {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto; 
+    border: 25px solid #A41623;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    top: -54px; 
+}
+
+
+
+.group-images figure {
+    position: relative;
+}
+
+header {
+    position: relative;
 }
