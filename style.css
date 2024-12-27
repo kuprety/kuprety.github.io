@@ -58,11 +58,6 @@ header h1 {
     font-size: 3em;
 }
 
-img[src="images/flower-icon.png"] {
-    width: 40px;
-    height: 40px;
-    padding:0px 0px 0px 10px;
-}
 
 #img-container {
     display: block;
@@ -116,7 +111,7 @@ img[src="images/kritika1.JPEG"] {
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 36%;
+  width: 40%;
   height: auto;
 
 }
