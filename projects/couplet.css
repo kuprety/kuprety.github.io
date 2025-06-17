@@ -21,6 +21,8 @@ body{
 
 }
 
+
+
 p {
     font-weight: 200;
     word-spacing: 1.3px;
@@ -48,6 +50,7 @@ width: 700px;
 nav {
     margin-right: 2.6%;
     margin-left: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 1.1%;
     word-spacing: 1em;
     height: 80px;
