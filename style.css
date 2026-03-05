@@ -1,3 +1,4 @@
+
 /*Kritika Uprety*/
 body {
     margin: 0;
@@ -52,10 +53,24 @@ nav div li a:hover {
 
 header h1 {
     position: relative;
-    margin-top: 20px;
+    margin-top: 15px;
     color: #A41623;
     letter-spacing: 1px;
-    font-size: 3em;
+    font-size: 4.3em;
+}
+
+header h4 {
+    margin-top: -46px;
+    position: relative;
+    color: #C75862;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    font-weight:normal;
+    
+    -webkit-text-stroke: 0.2px rgb(255, 196, 202); /* subtle outline
+
+    /* color: #C75862;                     keep fill visible */
+
 }
 
 

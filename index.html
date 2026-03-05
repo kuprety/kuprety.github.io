@@ -27,6 +27,8 @@
         <div class="img-container">
             
         <h1>hi, i'm kritika!</h1>
+        <h4>human-centered designer & coder</h4>
+
     </div>   
     </header>
 
@@ -51,12 +53,16 @@
         STUDENT
         INTERROGATOR
         CURIOUS
+        STORYTELLER
+        EXPLORER
+        LISTENER
+        MAKER
+        COLLABORATOR
+        THINKER
+        OBSERVER
+        IDEATOR
         VISUALIZER
         READER
-        HOLISTICTHINKER
-        COLLABORATOR
-        GLOBALTHINKER
-        IDEATOR
         LIFELONGLEARNER
         
     </marquee>
@@ -90,10 +96,16 @@
 
 
         header.querySelector('h1').style.color = 'rgb(255, 196, 202)';
+        header.querySelector('h4').style.color = 'rgb(255, 196, 202)';
+        header.querySelector('h4').style.webkitTextStroke = '0.3px #A41623';
 
         marquee.style.color = '#A41623';
 marquee.style.backgroundColor = 'rgb(255, 196, 202)';
 marquee.style.border = '1px solid rgb(255, 196, 202)';
+
+document.querySelectorAll('nav li a').forEach(function(link) {
+    link.style.color = 'white';
+});
 
 }
 else {
@@ -106,6 +118,12 @@ else {
 
 
         header.querySelector('h1').style.color = '#A41623';
+        header.querySelector('h4').style.color = '#C75862';
+        header.querySelector('h4').style.webkitTextStroke = '0.3px rgb(255, 196, 202)';
+
+        document.querySelectorAll('nav li a').forEach(function(link) {
+    link.style.color = 'black';
+});
 
         marquee.style.color = 'white';
 marquee.style.backgroundColor = '#A41623';
