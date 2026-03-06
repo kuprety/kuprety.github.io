@@ -335,3 +335,17 @@ img[src="images/type-for-change/type sketch 2.jpg"] {
 .button-container {
     margin-bottom: 2.5%;
 }
+
+
+.kirang-haerang-regular {
+    font-family: "Kirang Haerang", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    text-transform: lowercase;
+    color: #2b140d;
+
+  }
+
+  a#name.kirang-haerang-regular {
+    font-size: 1.9rem; /* bigger and absolute */
+}

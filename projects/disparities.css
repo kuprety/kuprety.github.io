@@ -208,3 +208,16 @@ img {
     width: 20%;
     height: auto;
 }
+
+.kirang-haerang-regular {
+    font-family: "Kirang Haerang", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    text-transform: lowercase;
+    color: #2b140d;
+
+  }
+
+  a#name.kirang-haerang-regular {
+    font-size: 1.9rem; /* bigger and absolute */
+}

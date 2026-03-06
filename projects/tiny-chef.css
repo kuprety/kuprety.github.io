@@ -3,7 +3,10 @@
 #name {
 
     font-size: 13pt;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        font-family: "Kirang Haerang", cursive;
+        font-weight: 400; /* or 500 if you want bolder */
+    
     float: left;
   padding:15px 0 0 0;
   word-spacing: 4px;
@@ -580,4 +583,17 @@ img[src="images/tiny-chef/user personas.png"] {
     width: 52%;
     height: auto;
 
+}
+
+.kirang-haerang-regular {
+    font-family: "Kirang Haerang", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    text-transform: lowercase;
+    color: #2b140d;
+
+  }
+
+  a#name.kirang-haerang-regular {
+    font-size: 1.9rem; /* bigger and absolute */
 }

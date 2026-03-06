@@ -7,155 +7,247 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <title>kritika</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-<div id="wrapper">
-   
-    <nav>
-        <ul>
-            <li><a href="index.html" id="name">KRITIKA UPRETY</a></li>
-            <div id="navbar-text">
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-             </div>
-        </ul>
-    </nav>
+    <div id="wrapper">
 
-    <header class="center">
-        <div class="img-container">
-            
-        <h1>hi, i'm kritika!</h1>
-        <h4>human-centered designer & coder</h4>
+        <nav>
+            <ul>
 
-    </div>   
-    </header>
+                <li><a href="index.html" id="name" class="kirang-haerang-regular">kritika uprety</a></li>
+                <div id="navbar-text">
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </div>
+            </ul>
+        </nav>
+
+        <header class="center">
+            <div class="img-container">
+
+                <h1>hi, i'm kritika!</h1>
+                <h4>human-centered designer & coder</h4>
+
+            </div>
+        </header>
 
 
 
 
-    <figure>
-        <div class="card">
-            <!-- <img src="images/sketch 2.PNG"> -->
-            <img src="images/me 5.gif">
+        <figure>
+            <div class="card">
+                <!-- <img src="images/sketch 2.PNG"> -->
+                <img src="images/me 5.gif">
+            </div>
+        </figure>
+
+
+        <div class="mini-description">
+
+            <p>
+                i'm a <span class="highlight-red">product designer</span> passionate about <span
+                    class="highlight-red">designing</span>, <span class="highlight-red">coding</span>, and understanding
+                why humans do what they do.
+            </p>
         </div>
-    </figure>
-    <br>
-    <br>
+
+        <div class="prev-experience-description">
+            <hr>
+            <p>
+                previous product design co-op @ Klaviyo & product management co-op @ Boston Globe
+            </p>
+        </div>
+        <br>
+
+        <marquee direction="left" loop="infinite" scrollamount="10">
+            CODER
+            DESIGNER
+            STUDENT
+            INTERROGATOR
+            CURIOUS
+            STORYTELLER
+            EXPLORER
+            LISTENER
+            MAKER
+            COLLABORATOR
+            THINKER
+            OBSERVER
+            IDEATOR
+            VISUALIZER
+            READER
+            LIFELONGLEARNER
+
+        </marquee>
+
+
+        <div class="red-background">
+
+            <section class="featured-work">
+                <h1>featured projects</h1>
+                <div class="projects-preview">
+
+
+                    <!-- project 1 -->
+                    <div class="projects" id="projectCouplet">
+                        <figure>
+                            <div class="card">
+                                <img src="images/couplet.png">
+                            </div>
+                        </figure>
+
+
+                        <div class="text-container">
+                            <h2>Couplet</h2>
+                            <p>Designing an app that connects people through shared interest in local events in Boston.
+                            </p>
+
+                            <!-- Chips for this project -->
+                            <div class="project-chips">
+                                <span>UX/UI Design</span>
+                                <span>Mobile Design</span>
+                            </div>
+
+                            <a href="projects/couplet.html">
+                                <button id="learnMore">Take a peek</button>
+                            </a> <!-- </a> -->
+                        </div>
+                    </div>
+
+                    <!-- project 2 -->
+                    <div class="projects" id="projectTinyChef">
+                        <figure>
+                            <div class="card">
+                                <img src="images/tiny chef.png">
+                            </div>
+                        </figure>
+
+
+                        <div class="text-container">
+                            <h2>Tiny Chef</h2>
+                            <p>
+                                An app that empowers home cooks to make the most of their ingredients while fostering
+                                connection through shared recipes.
+                            </p>
+
+                            <!-- Chips for this project -->
+                            <div class="project-chips">
+                                <span>UX/UI Design</span>
+                                <span>Mobile Design</span>
+                            </div>
+
+                            <a href="projects/tiny-chef.html">
+                                <button id="learnMore">Take a peek</button>
+                            </a>
+                        </div>
+                    </div>
 
 
 
-    <marquee direction="left" 
-        loop="infinite" scrollamount="10">
-        CODER
-        DESIGNER
-        STUDENT
-        INTERROGATOR
-        CURIOUS
-        STORYTELLER
-        EXPLORER
-        LISTENER
-        MAKER
-        COLLABORATOR
-        THINKER
-        OBSERVER
-        IDEATOR
-        VISUALIZER
-        READER
-        LIFELONGLEARNER
-        
-    </marquee>
-   
+                </div>
 
 
-    <br>
-    <br>
-    <br>
+                <p class="all-projects-text">
+                    wanna see everything? <a href="projects.html">explore all projects →</a>
+                </p>
+
+            </section>
+
+        </div>
 
 
 
-<button id="play">flip colors</button>
-<script>
-    let body = document.querySelector('body');
-    let header = document.querySelector('header');
-    let marquee = document.querySelector('marquee');
+        <!-- <button id="play">flip colors</button> -->
+        <script>
+            let body = document.querySelector('body');
+            let header = document.querySelector('header');
+            let marquee = document.querySelector('marquee');
 
 
-    let isFlipped = false;
+            let isFlipped = false;
 
-    document.querySelector('#play').addEventListener('click', function() {
-       
-        isFlipped = !isFlipped;
-       
-        if (isFlipped) {
+            document.querySelector('#play').addEventListener('click', function () {
 
-       
-        body.style.backgroundColor = '#A41623';
+                isFlipped = !isFlipped;
+
+                if (isFlipped) {
 
 
-
-        header.querySelector('h1').style.color = 'rgb(255, 196, 202)';
-        header.querySelector('h4').style.color = 'rgb(255, 196, 202)';
-        header.querySelector('h4').style.webkitTextStroke = '0.3px #A41623';
-
-        marquee.style.color = '#A41623';
-marquee.style.backgroundColor = 'rgb(255, 196, 202)';
-marquee.style.border = '1px solid rgb(255, 196, 202)';
-
-document.querySelectorAll('nav li a').forEach(function(link) {
-    link.style.color = 'white';
-});
-
-}
-else {
-     
-    body.style.backgroundColor = 'rgb(255, 196, 202)';
-
-   
-     
-       
+                    body.style.backgroundColor = '#A41623';
 
 
-        header.querySelector('h1').style.color = '#A41623';
-        header.querySelector('h4').style.color = '#C75862';
-        header.querySelector('h4').style.webkitTextStroke = '0.3px rgb(255, 196, 202)';
 
-        document.querySelectorAll('nav li a').forEach(function(link) {
-    link.style.color = 'black';
-});
+                    header.querySelector('h1').style.color = 'rgb(255, 196, 202)';
+                    header.querySelector('h4').style.color = 'rgb(255, 196, 202)';
+                    header.querySelector('h4').style.webkitTextStroke = '0.3px #A41623';
 
-        marquee.style.color = 'white';
-marquee.style.backgroundColor = '#A41623';
-marquee.style.border = '1px solid #A41623';
-}
+                    marquee.style.color = '#A41623';
+                    marquee.style.backgroundColor = 'rgb(255, 196, 202)';
+                    marquee.style.border = '1px solid rgb(255, 196, 202)';
 
-document.querySelectorAll('nav li a').forEach(function(link) {
+                    document.querySelectorAll('nav li a').forEach(function (link) {
+                        link.style.color = 'white';
+                    });
 
-            link.addEventListener('mouseover', function() {
-                link.style.color = isFlipped ? 'rgb(255, 196, 202)' : '#A41623';
+                }
+                else {
+
+                    body.style.backgroundColor = 'rgb(255, 196, 202)';
+
+
+
+
+
+
+                    header.querySelector('h1').style.color = '#A41623';
+                    header.querySelector('h4').style.color = '#C75862';
+                    header.querySelector('h4').style.webkitTextStroke = '0.3px rgb(255, 196, 202)';
+
+                    document.querySelectorAll('nav li a').forEach(function (link) {
+                        link.style.color = 'black';
+                    });
+
+                    marquee.style.color = 'white';
+                    marquee.style.backgroundColor = '#A41623';
+                    marquee.style.border = '1px solid #A41623';
+                }
+
+                document.querySelectorAll('nav li a').forEach(function (link) {
+
+                    link.addEventListener('mouseover', function () {
+                        link.style.color = isFlipped ? 'rgb(255, 196, 202)' : '#A41623';
+                    });
+                    link.addEventListener('mouseout', function () {
+                        link.style.color = '';
+                    });
+                });
+
             });
-            link.addEventListener('mouseout', function() {
-                link.style.color = '';
-            });
-        });
-
-});
 
 
-</script>
+        </script>
 
 
 
-<footer>
-    <br>
-    <small>
-        ©2025. Made with <span style="color: #A41623; padding: 0 3px;">♥</span> by KRITIKA
-    </small>
-    <br>
-</footer>
+        <footer>
+            <br>
+            <small>
+                ©2025. Made with <span style="color: #A41623; padding: 0 3px;">♥</span> by KRITIKA
+            </small>
+            <br>
+        </footer>
 
-</div>
+    </div>
+
+
 </body>
 
 
