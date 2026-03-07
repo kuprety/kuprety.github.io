@@ -249,8 +249,7 @@ color: #211c1c;
     font-size: 11.8pt;
 line-height: 1.3;
 color: #211c1c;
-font-weight: 100;
--webkit-text-stroke: 0.6px #211c1c; /* subtle outline */
+font-weight: normal;
 
 }
 
@@ -261,6 +260,10 @@ margin-bottom: 2.5%;
 
 .highlight-red {
     color: #A41623;
+}
+
+.highlight-auburn {
+    color: #C75862;
 }
 
 hr {
