@@ -50,15 +50,30 @@ width: 700px;
 }
 
 
+
+
 nav {
-    margin-right: 2.6%;
+    margin-right: 2.8%;
     margin-left: auto;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1.0%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 1.1%;
+
+    padding-top: 1.0%;
+
     word-spacing: 1em;
     height: 80px;
 }
 
+
+#name img#logo {
+    width: 19px;        /* keeps it 40px wide */
+    height: 19px;       /* keeps it 40px tall */
+    vertical-align: middle;  /* aligns with the text */
+    margin-right: -5px;       /* space between logo and text */
+    padding-bottom: 4px;
+}
 
 
 nav li {
@@ -76,29 +91,100 @@ nav li a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all 0.3s ease; 
 }
 
-
-nav div li a:hover {
+nav li a:hover,
+nav li a.current {
     color: #A41623;
-    border-bottom: 1.2px solid #A41623;
+    background-color: #f3b9cc; 
+    border-radius: 5px;
+    padding: 2px 4px;
 }
 
-
+.logo-link:hover,
+.logo-link:active {
+    background-color: transparent;  /* no pink */
+    color: inherit;                 /* keep original color */
+}
   
 footer {
-    background-color: #E999A1;
+    background-color: #f3b9cc;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    border-top: 3px dotted #d97b83;
+    position: relative;
+}
+
+footer img {
+    position: absolute;
+    right: 192px;
+    bottom: 28px;   /* adjust to place it nicely */
+    width: 90px;    /* controls size */
+    pointer-events: none; 
+}
+
+.external-icon {
+    font-family: system-ui, sans-serif;
+}
+
+footer .all-footer-content {
+    margin-left: 180px;
+
+}
+
+footer .footer-left {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 35px;
+    flex-direction: column;
+    align-items: flex-start; /* left align */
 }
 
-footer small {
-    color: white;
-    text-align: center;
+footer .footer-credit {
+    font-size: 1.4rem; /* larger text */
+    font-weight: 600;
+    color: black;
+    margin-bottom: 2px;
 
 }
+
+footer .love-made {
+    font-size: 1.0rem;
+    margin-bottom: 12px;
+    color: black;
+
+}
+
+footer .heart {
+    color: #A41623;
+    padding: 0 3px;
+}
+
+footer .footer-links {
+    display: flex;
+    flex-direction: column; /* stack links */
+    font-size: 1.3em;
+    gap: 8px;
+    text-align: left;
+}
+
+footer .footer-links a {
+    color: #A41623;
+    text-decoration: underline;
+    font-weight: 500;
+    border-radius: 5px; /* same as hover */
+    transition: all 0.3s ease; 
+
+ }
+ 
+ 
+ footer .footer-links a:hover {
+    color: #A41623;
+    background-color: rgb(250, 227, 227);
+    border-radius: 5px;
+    padding: 2px 4px;
+ }
+ 
+
 
 #wrapper {
     text-align: center;
