@@ -569,31 +569,42 @@ ul li {
 
 
 img[src="images/couplet/competitor analysis.png"] {
-    width: 130%;
+    width: 100%;
     height: auto;
-    margin-left: -20%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 img[src="images/couplet/user personas.png"] {
-    width: 70%;
+    width: 100%;
     height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     margin-top: 2%;
+    margin-bottom: 3%;
 
 }
 
 img[src="images/couplet/existing competitors.png"] {
-    width: 45%;
+    width: 70%;
     height: auto;
-    margin-top: 3%;
-    margin-bottom: 7%;
+    margin-top: -4%;
+    margin-bottom: 0%;
 }
 
 
 img[src="images/couplet/brand values.png"] {
-    width: 100%;
-    margin-top: -1%;
-    margin-bottom: 3%;
+    width: 110%;
+    margin-top: -5%;
+    margin-bottom: -2%;
     height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 
 }
 
@@ -601,47 +612,64 @@ img[src="images/couplet/brand values.png"] {
 img[src="images/couplet/moodboard.png"] {
     width: 100%;
     height: auto;
-    margin-top: -1.3%;
-    margin-bottom: 1.5%;
+    margin-top: -6.3%;
+    margin-bottom:0%;
 
 }
 
 
 img[src="images/couplet/typography.png"] {
-    width: 100%;
+    width: 110%;
     height: auto;
-    margin-top: 3%;
-    margin-bottom: -2.4%;
-}
+    margin-top: -1%;
+    margin-bottom: -3.4%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);}
 
 img[src="images/couplet/logos and colors.png"] {
     width: 100%;
     height: auto;
-    margin-top: 1%;
-    margin-bottom: 3.8%;
+    margin-top: 0%;
+    margin-bottom: 4%;
 }
 
 img[src="images/couplet/create profile flow.png"] {
-    width: 100%;
+    width: 112%;
     height: auto;
-    margin-bottom: 2%;
-    margin-top: -0.8%;
+    margin-bottom: 1%;
+    margin-top: -0.5%;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
 
 }
 
 img[src="images/couplet/discover events flow.png"] {
-    width: 100%;
+    width: 112%;
     height: auto;
-    margin-bottom: 2%;
-    margin-top: -0.8%;
+    margin-bottom: 1%;
+    margin-top: -0.5%;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
 
 }
 
 img[src="images/couplet/matchmaking flow.png"] {
-    width: 100%;
+    width: 112%;
     height: auto;
-    margin-bottom: 4%;
-    margin-top: -0.8%;
+    margin-bottom: -0.5%;
+    margin-top: 0.3%;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
 
 img[src="images/couplet/login.png"] {
@@ -675,7 +703,7 @@ img[src="images/couplet/matches.png"] {
 img[src="images/couplet/profile.png"] {
     width: 80%;
     height: auto;
-    margin-bottom: 4%;
+    margin-bottom: 0%;
     margin-top: -0.8%;
 }
 
@@ -688,17 +716,17 @@ img[src="images/couplet/brand book mockup.png"] {
 }
 
 img[src="images/couplet/next steps.png"] {
-    width: 70%;
+    width: 80%;
     height: auto;
-    margin-top: 3%;
+    margin-top: 0.2%;
     margin-bottom: 6%;
 }
 
 img[src="images/couplet/takeaways.png"] {
-    width: 60%;
+    width: 35%;
     height: auto;
     margin-top: 3%;
-    margin-bottom: 2%;
+    margin-bottom: 2.0%;
 
 }
 
@@ -1007,7 +1035,7 @@ ul li bold {
 }
 
 .container .horizontal-bold {
-    margin-top: -14px;
+    margin-top: -17px;
 }
 
 .container figure {
@@ -1096,7 +1124,7 @@ ul li bold {
     color: #C75862;
     margin-top: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 40%;
+    margin-left: 39%;
     margin-bottom: 3%;
 
 }
