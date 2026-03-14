@@ -1,51 +1,50 @@
 /*Kritika Uprety*/
-    
+
 #name {
 
     font-size: 13pt;
 
-        font-family: "Kirang Haerang", cursive;
-        font-weight: 400; /* or 500 if you want bolder */
-    
+font-family: "Kirang Haerang", cursive;
+    font-weight: 400;
+    /* or 500 if you want bolder */
+
     float: left;
-  padding:15px 0 0 0;
-  word-spacing: 4px;
+    padding: 15px 0 0 0;
+    word-spacing: 4px;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-size: 100%;
     background-color: rgb(252, 217, 220);
-    font-family: "utile", sans-serif;
-    font-style: normal;
+
     line-height: 1.3;
-    height: 90px;
+height: 90px;
+
+
 
 }
 
-p {
-    font-weight: 200;
-    word-spacing: 1.3px;
 
-}
+
 
 
 
 header {
     font-size: larger;
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 
 .move-up {
-margin-left: 33%;   
-margin-bottom: 2%;
-width: 700px;
-    
+    margin-left: 33%;
+    margin-bottom: 2%;
+    width: 700px;
+
 }
+
+
 
 
 nav {
@@ -62,14 +61,18 @@ nav {
     height: 80px;
 }
 
+
 #name img#logo {
-    width: 19px;        /* keeps it 40px wide */
-    height: 19px;       /* keeps it 40px tall */
-    vertical-align: middle;  /* aligns with the text */
-    margin-right: -5px;       /* space between logo and text */
+    width: 19px;
+    /* keeps it 40px wide */
+    height: 19px;
+    /* keeps it 40px tall */
+    vertical-align: middle;
+    /* aligns with the text */
+    margin-right: -5px;
+    /* space between logo and text */
     padding-bottom: 4px;
 }
-
 
 
 nav li {
@@ -78,36 +81,35 @@ nav li {
     margin-left: 11px;
 }
 
-#navbar-text{
+#navbar-text {
     font-size: 13pt;
     float: right;
-  padding:15px 0 0 0
+    padding: 15px 0 0 0
 }
+
 nav li a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
 }
 
 nav li a:hover,
 nav li a.current {
     color: #A41623;
-    background-color: #f3b9cc; 
+    background-color: #f3b9cc;
     border-radius: 5px;
     padding: 2px 4px;
 }
 
 .logo-link:hover,
 .logo-link:active {
-    background-color: transparent;  /* no pink */
-    color: inherit;                 /* keep original color */
+    background-color: transparent;
+    /* no pink */
+    color: inherit;
+    /* keep original color */
 }
-  
 
-
-  
-  
 footer {
     background-color: #f3b9cc;
     padding-top: 55px;
@@ -119,9 +121,11 @@ footer {
 footer img {
     position: absolute;
     right: 192px;
-    bottom: 28px;   /* adjust to place it nicely */
-    width: 90px;    /* controls size */
-    pointer-events: none; 
+    bottom: 28px;
+    /* adjust to place it nicely */
+    width: 90px;
+    /* controls size */
+    pointer-events: none;
 }
 
 .external-icon {
@@ -136,11 +140,13 @@ footer .all-footer-content {
 footer .footer-left {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* left align */
+    align-items: flex-start;
+    /* left align */
 }
 
 footer .footer-credit {
-    font-size: 1.4rem; /* larger text */
+    font-size: 1.4rem;
+    /* larger text */
     font-weight: 600;
     color: black;
     margin-bottom: 2px;
@@ -161,7 +167,8 @@ footer .heart {
 
 footer .footer-links {
     display: flex;
-    flex-direction: column; /* stack links */
+    flex-direction: column;
+    /* stack links */
     font-size: 1.3em;
     gap: 8px;
     text-align: left;
@@ -171,19 +178,20 @@ footer .footer-links a {
     color: #A41623;
     text-decoration: underline;
     font-weight: 500;
-    border-radius: 5px; /* same as hover */
-    transition: all 0.3s ease; 
+    border-radius: 5px;
+    /* same as hover */
+    transition: all 0.3s ease;
 
- }
- 
- 
- footer .footer-links a:hover {
+}
+
+
+footer .footer-links a:hover {
     color: #A41623;
     background-color: rgb(250, 227, 227);
     border-radius: 5px;
     padding: 2px 4px;
- }
- 
+}
+
 
 
 #wrapper {
@@ -192,17 +200,7 @@ footer .footer-links a {
 }
 
 
-header h1 {
-    position: relative;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 1.8%;
-    color: black;
-    text-align: left;
-    letter-spacing: 1px;
-    font-size: 64pt;
-    top: 24px;
 
-}
 
 header h2 {
     position: relative;
@@ -216,82 +214,122 @@ header h2 {
 
 }
 
-h1, h2 {
-    padding-left: 5%;
-}
-p{
+
+
+p {
     font-size: 13.5pt;
     color: black;
     text-align: left;
     width: 550px;
- }
+}
 
- 
-     
-    #view {
-        color: white;
-        background-color: black;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 13.5pt;
-        border: black 2px solid;
-        padding: 10px;
-        width: 150px;
-        margin-top: 20px;
-        }
-    
-        #view:hover {
-            cursor: pointer;
-            color: black;
-            background-color: white;
-            border: white 2px solid;
-    
-        }
-    
-        .container {
-            display: flex;
-        }
-        
-        .container figure {
-            flex: 1;
-        }
-        
-        .container div {
-            flex: 1;
-        }
-        
-        .container img {
-            width: 81%;
-        }
-        
-        .container p:first-child {
-            margin-top: 5%;
-        }
-        
-        .container p:last-child {
-            margin-top: 40px;
-            font-size: 13.5pt;
-            color: black;
-            text-align: left;
-            max-width: 81%;
-        }
-        
-        .container button {
-            margin: 20px auto;
-            margin-right: 21%;
-                }
+img[src="images/user needs.png"] {
+    width: 650px;
+    height: auto;
+    margin-bottom: 2.5%;
+}
 
-#back{
-    background-color: rgb(252, 217, 220);
-    border: rgb(252, 217, 220) 2px solid;
-    cursor:pointer;
-    border:none;
-    margin-right: 90%;
+
+
+img[src="images/design thinking.png"] {
+    width: 650px;
+    height: auto;
+}
+
+img[src="images/rough sketch.png"] {
+    width: 650px;
     margin-top: 0.2%;
+    height: auto;
+}
+
+img[src="images/lofi-login.png"],
+img[src="images/lofi-dashboard.png"] {
+    width: 650px;
+    height: auto;
+    padding-left: 25%;
+}
+
+img[src="images/lofi-login.png"] {
+    margin-bottom: -40px;
+}
+
+img[src="images/lofi-dashboard.png"] {
+    margin-bottom: -40px;
+}
+
+
+img[src="images/hifi-login.png"],
+img[src="images/hifi-dashboard.png"] {
+    width: 650px;
+    height: auto;
+    padding-left: 25%;
+}
+
+img[src="images/hifi-login.png"] {
+    margin-bottom: -40px;
+}
+
+img[src="images/hifi-dashboard.png"] {
+    margin-bottom: -20px;
+}
+
+#view {
+    color: white;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13.5pt;
+    border: black 2px solid;
+    padding: 10px 15px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    margin-bottom: 0.8%;
+}
+
+#view:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    transform: translateY(-2px);
+}
+
+
+
+
+#back {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(6px);
+
+    border: none;
+    border-radius: 50px;
+
+    padding: 12px 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+    cursor: pointer;
+    transition: all 0.25s ease;
 }
 
 #back img {
-    width: 20%;
+    width: 22px;
     height: auto;
+}
+
+#back:hover {
+    transform: translateY(-2px);
+    background: white;
 }
 
 .process-container {
@@ -307,7 +345,7 @@ p{
 }
 
 .process-container #right {
-    width: 30%; 
+    width: 30%;
     text-align: justify;
     margin-right: 8%;
     margin-top: -1%;
@@ -320,7 +358,7 @@ p{
 
 
 
-h2 {
+.overview-row h2 {
     position: relative;
     margin-top: 1.4%;
     color: black;
@@ -328,6 +366,8 @@ h2 {
     letter-spacing: 1px;
     font-size: 32pt;
     font-weight: 600;
+    padding-left: 5%;
+
 
 }
 
@@ -335,47 +375,26 @@ h2 {
 
 
 .process-container p {
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 .process-container #right p {
-    width:450px;
-    }
+    width: 450px;
+}
 
 .process-container #left p {
-    width:720px;    
-}    
+    width: 720px;
+}
 
 
-.bigger { 
-    font-size:120%; 
-    text-align:left;
+.bigger {
+    font-size: 120%;
+    text-align: left;
 
 }
 
-.white-background {
-    background-color: rgb(253, 243, 244);
-    padding-top: 1%;
-    padding-left: 1.8%;
-    padding-bottom: 3.5%;
-    margin-top: 3%;
 
-}
 
-.black-background {
-    background-color: rgb(18, 18, 18);
-    margin-top: -3.5%;
-    padding-top: 1%;
-    padding-left: 1.8%;
-    padding-bottom: 0.5%;
-    margin-bottom: -3.5%;
-}
-
-.black-background h2 {
-    color: rgb(253, 243, 244);
-    font-size: 40pt;
-
-}
 
 .paragraph-after-bold {
     margin-top: 20px;
@@ -388,6 +407,11 @@ h2 {
 }
 
 
+img[src="images/rough draft.png"] {
+    width: 400px;
+    height: 280px;
+    margin-bottom: 20px;
+}
 
 
 
@@ -400,6 +424,7 @@ h2 {
     top: 30px;
     color: rgb(255, 196, 202);
 }
+
 .finalDesign video {
     width: 800px;
     margin-bottom: 2%;
@@ -407,9 +432,10 @@ h2 {
 }
 
 
-#space-on-top{
+#space-on-top {
     margin-top: 13%;
 }
+
 .button-container {
     margin-bottom: 2.5%;
 }
@@ -417,6 +443,7 @@ h2 {
 strong {
     font-weight: 500;
 }
+
 strong .description {
     font-size: 20pt;
     font-weight: 600;
@@ -424,8 +451,9 @@ strong .description {
 
 
 .roughSketch {
-    padding-left: 29%; 
+    padding-left: 29%;
 }
+
 .left {
     padding-left: 25%;
     width: 700px;
@@ -433,7 +461,7 @@ strong .description {
 }
 
 .process-container ul li {
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 
 
@@ -449,8 +477,8 @@ strong .description {
 }
 
 .designThinking {
-    font-size:380%; 
-    text-align:left;
+    font-size: 380%;
+    text-align: left;
 
 }
 
@@ -462,13 +490,13 @@ strong .description {
     margin-bottom: -3.4%;
     margin-left: 25%;
 }
- 
+
 #hifi {
     font-size: 450%;
 }
 
 #bolder {
-font-weight: 600;
+    font-weight: 600;
 }
 
 .enjoyed-improvements-container {
@@ -476,8 +504,9 @@ font-weight: 600;
     justify-content: space-between;
 }
 
-.enjoyed-list, .improvements-list {
-    flex: 0 0 48%; 
+.enjoyed-list,
+.improvements-list {
+    flex: 0 0 48%;
 }
 
 .enjoyed-list {
@@ -502,44 +531,14 @@ font-weight: 600;
 }
 
 
-.userTesting { 
-    font-size:120%; 
-    text-align:left;
+.userTesting {
+    font-size: 120%;
+    text-align: left;
     padding-right: 70%;
 }
 
-.horizontal-container {
-    display: flex;
-    gap: 20px; 
-    padding-top: 2%; 
-
-}
-
-.item {
-    flex: 1; /* makes all items the same width */
-    max-width: 23%;
-}
-
-#horizontal-description {
-    font-size: 18pt;
-    display: block;
-    width: auto;
-    margin: 0 auto;
-    flex: 1; /* makes all items the same width */
-    text-align: center;
-    margin-top: -3%;
-
-}
-
-.horizontal-bold {
-    font-weight: bold;
-    font-size: 13pt;
-    display: block;
-    width: auto;
-    margin: 0 auto;
 
 
-}
 
 h3 {
     text-align: left;
@@ -552,8 +551,9 @@ h3 {
 #the-problem {
     margin-left: 7.5%;
     margin-top: 2%;
-    width:  84%;
+    width: 84%;
 }
+
 
 ul li {
     text-align: left;
@@ -561,117 +561,79 @@ ul li {
 }
 
 #accomplishment {
-margin-top: -0.5%;
-}
-
-.accomplishment-list {
-    margin-left: 7.5%;
-}
-
-
-
- ul li p {
-    
     margin-top: -0.5%;
-    width:  84%;
-
 }
 
-ul li bold {
-    
-   font-weight: 500;
 
+
+
+
+
+
+img[src="images/couplet/competitor analysis.png"] {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
-img[src="images/tiny-chef/search and save recipe.png"] {
+
+
+img[src="images/couplet/existing competitors.png"] {
     width: 70%;
     height: auto;
-}
-
-img[src="images/tiny-chef/add diet restriction.png"] {
-    width: 58%;
-    height: auto;  
-}
-
-img[src="images/tiny-chef/post recipe.png"] {
-    width: 40%;
-    height: auto;  
+    margin-top: -4%;
+    margin-bottom: 0%;
 }
 
 
-img[src="images/tiny-chef/buy ingredients.png"] {
-    width: 55%;
-    height: auto;  
-}
 
-img[src="images/tiny-chef/search and save flow.png"] {
-    width: 43%;
-    height: auto;  
- 
-}
-
-img[src="images/tiny-chef/add diet restriction flow.png"] {
-    width: 40%;
-    height: auto;  
-}
-
-img[src="images/tiny-chef/post recipe flow.png"] {
-    width: 30%;
-    height: auto;  
-}
-
-
-img[src="images/tiny-chef/buy ingredients flow.png"] {
-    width: 40%;
-    height: auto;  
-}
-
-img[src="images/tiny-chef/med-fid - search and save.png"] {
-    width: 65%;
+img[src="images/couplet/login.png"] {
+    width: 80%;
     height: auto;
-}
-
-img[src="images/tiny-chef/med-fid - add diet restriction.png"] {
-    width: 67%;
-    height: auto;
-}
-
-img[src="images/tiny-chef/med-fid - post recipe.png"] {
-    width: 60%;
-    height: auto;
-}
-
-img[src="images/tiny-chef/med-fid - buy ingredients.png"] {
-    width: 60%;
-    height: auto;
-}
-
-img[src="images/tiny-chef/home.png"] {
-    width: 60%;
-    height: auto;
-}
-
-img[src="images/tiny-chef/user profile.png"] {
-    width: 60%;
-    height: auto;
-}
-
-img[src="images/tiny-chef/market.png"] {
-    width: 60%;
-    height: auto;
-}
-
-
-img[src="images/tiny-chef/tiny chef screen.png"] {
-    width: 50%;
-    height: auto;
+    margin-bottom: 4%;
+    margin-top: -0.8%;
 }
 
 img[src="images/tiny-chef/user personas.png"] {
-    width: 52%;
+    width: 100%;
     height: auto;
-
+    margin-bottom: 0.5%;
+    margin-top: -2.8%;
 }
+
+img[src="images/tiny-chef/search and save recipe.png"] {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+    margin-top: -3.8%;
+}
+
+img[src="images/tiny-chef/add diet restriction.png"] {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+    margin-top: -3.8%;
+}
+
+img[src="images/tiny-chef/post recipe.png"] {
+    width: 75%;
+    height: auto;
+    margin-bottom: -2%;
+    margin-top: 1%;
+}
+
+img[src="images/tiny-chef/buy ingredients.png"] {
+    width: 90%;
+    height: auto;
+    margin-bottom: 5%;
+    margin-top: -1%;
+}
+
+
 
 .kirang-haerang-regular {
     font-family: "Kirang Haerang", system-ui;
@@ -680,8 +642,511 @@ img[src="images/tiny-chef/user personas.png"] {
     text-transform: lowercase;
     color: #2b140d;
 
+}
+
+a#name.kirang-haerang-regular {
+    font-size: 1.9rem;
+    /* bigger and absolute */
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 520px;
+    /* slightly shorter than 550px */
+    object-fit: cover;
+    display: block;
+}
+
+header h1 {
+    position:relative;
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 1%;
+    letter-spacing: 1px;
+    font-size: 3.4em;
+ 
+    margin-top: 1.8%;
+    color: black;
+    text-align: left;
+    /* letter-spacing: 1px;
+    font-size: 54pt; */
+    top: 24px;
+    width: 400px;
+
+
+}
+
+.hero-row{
+    display:flex;
+    align-items:flex-start;
+    margin-right: 10%;
+    margin-left: 17%;
+
+    gap:2.5%;
+    margin-top:30px;
+}
+
+.hero-row header{
+    flex:0 0 auto;
+}
+
+.hero-row .mini-description{
+    max-width:640px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.hero-row .mini-description p{
+    font-size: 16.6px;
+    line-height: 1.5rem;
+    width: 530px;
+    margin-bottom: 8%;
+}
+
+
+
+hr {
+    border: none; 
+    
+    width: 65%;
+    height: 1px; 
+    background-color: #d97b83;
+    margin: 0 auto; 
   }
 
-  a#name.kirang-haerang-regular {
-    font-size: 1.9rem; /* bigger and absolute */
+
+  /* .details-container{
+    display:flex;
+    align-items:flex-start;
+    margin-right: 10%;
+    margin-left: 17%;
+
+    gap:10%;
+    margin-top:30px;
+} */
+
+
+
+.horizontal-container {
+    display: flex;
+    padding-top: 2%;
+    padding-left: 18%;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
+
+#horizontal-description {
+    font-size: 13pt;
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    flex: 1;
+    /* makes all items the same width */
+    text-align: left;
+    margin-top: -3%;
+    padding-bottom: 10px;
+    
+
+
+}
+
+.horizontal-bold {
+    font-weight: 500;
+    font-size: 13pt;
+    display: block;
+    color: #A41623;
+    width: auto;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: -10px;
+
+
+
+}
+
+
+.item {
+    flex: 1;
+    /* makes all items the same width */
+    max-width: 20%;
+}
+
+
+
+.purple-background {
+    background-color: #f3b9cc;
+    padding-top: 1%;
+    padding-left: 1.8%;
+    padding-bottom: 3.5%;
+    margin-top: 3%;
+
+}
+
+/* ------ font identifiers ------- */
+
+.dm-sans-regular {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* regular */
+    font-style: normal;
+}
+
+.dm-sans-medium {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500; /* medium */
+    font-style: normal;
+}
+
+.dm-sans-bold {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* bold */
+    font-style: normal;
+}
+
+
+
+
+.overview-row{
+    display:flex;
+    align-items:flex-start;
+    margin-right: 10%;
+    margin-left: 13%;
+
+    gap:16.2%;
+    margin-top:30px;
+}
+
+.overview-row .mini-description{
+    max-width:640px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.overview-row .mini-description p, .problem-row .mini-description p{
+    font-size: 16.6px;
+    line-height: 1.5rem;
+    margin-bottom: 2%;
+}
+
+.overview-row .mini-description p {
+    width: 570px;
+
+}
+
+
+.overview-row h2{
+    position:relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    letter-spacing: 1px;
+    font-size: 2.2em;
+ 
+    margin-top: 1.8%;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.problem-row{
+    margin-right: 10%;
+    margin-left: 18.2%;
+
+    gap:16.2%;
+    margin-top:65px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.problem-row .horizontal-bold {
+    margin-left: 7%;
+    font-weight: 500;
+    font-size: 13pt;
+    display: block;
+    color: #A41623;
+    width: auto;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: -10px;
+
+
+}
+
+
+.problem-row h2{
+    position:relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    letter-spacing: 1px;
+    font-size: 2.2em;
+ 
+    margin-top: 1.8%;
+    margin-bottom: -0.5%;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.problem-row .mini-description p {
+    width: 990px;
+
+}
+
+
+
+.accomplishment-list {
+    margin-left: 0%;
+    margin-top: -1%;
+}
+
+
+ul li p {
+
+    margin-top: -1.5%;
+    width: 84%;
+
+}
+
+ul li bold {
+
+    font-weight: 500;
+
+}
+
+.container {
+    display: flex;
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-bottom: 2.4%;
+
+}
+
+.container .horizontal-bold {
+    margin-top: -17px;
+}
+
+.container figure {
+    flex: 1;
+    
+}
+
+.container div {
+    flex: 1;
+    margin-left: -100px;
+}
+
+.container li {
+
+    margin-left: -12px;
+}
+
+.container li p {
+    font-size: 16px;
+    width: 460px;
+    margin-bottom: 20px;
+    margin-left: 4px;
+}
+
+.container img {
+    width: 71%;
+    margin-top: 5%;
+}
+
+.container button {
+    margin: 20px auto;
+    margin-right: 21%;
+
+    
+}
+
+.container h2 {
+    position:relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    letter-spacing: 1px;
+    font-size: 2.2em;
+ 
+    margin-top: 1.8%;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.accomplishment-list li p b {
+    font-weight: 600;
+}
+
+
+.black-background {
+    background-color: #A41623;
+    margin-top: -3.5%;
+    padding-top: 1%;
+    padding-left: 1.8%;
+    padding-bottom: 0.5%;
+    margin-bottom: -3.5%;
+}
+
+.black-background h2 {
+    color: rgb(252, 217, 220);
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+    font-size: 3.4em;
+ 
+    margin-top: 1.8%;
+
+}
+
+.white-background {
+    background-color: rgb(255, 219, 223);
+    padding-top: 1%;
+    margin-top: 3%;
+
+}
+
+.all-projects-text {
+    font-size: 1.25rem;
+    color: #C75862;
+    margin-top: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 39%;
+    margin-bottom: 3%;
+
+}
+
+.all-projects-text a {
+    color: #A41623;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1.5px solid #C75862;
+    transition: all 0.3s ease; 
+    /* transition: color 0.2s ease, border-bottom-color 0.2s ease; */
+}
+
+.all-projects-text a:hover {
+    color: #A41623;
+    background-color: #f3b9cc; 
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+
+
+
+img[src="images/tiny-chef/search and save recipe.png"] {
+    width: 100%;
+    height: auto;
+}
+
+img[src="images/tiny-chef/add diet restriction.png"] {
+    width: 90%;
+    height: auto;  
+}
+
+img[src="images/tiny-chef/post recipe.png"] {
+    width: 80%;
+    height: auto; 
+    margin-top: -0.5%;
+ 
+}
+
+
+img[src="images/tiny-chef/buy ingredients.png"] {
+    width: 80%;
+    height: auto;  
+    margin-top: -3%;
+}
+
+img[src="images/tiny-chef/search and save flow.png"] {
+    width: 80%;
+    height: auto;  
+ 
+}
+
+img[src="images/tiny-chef/add diet restriction flow.png"] {
+    width: 80%;
+    height: auto;  
+}
+
+img[src="images/tiny-chef/post recipe flow.png"] {
+    width: 70%;
+    height: auto;  
+}
+
+
+img[src="images/tiny-chef/buy ingredients flow.png"] {
+    width: 85%;
+    height: auto;  
+}
+
+img[src="images/tiny-chef/med-fid - search and save.png"] {
+    margin-top: -2%;
+    width: 100%;
+    height: auto;
+}
+
+img[src="images/tiny-chef/med-fid - add diet restriction.png"] {
+    margin-top: -2%;
+    width: 100%;
+    height: auto;
+}
+
+img[src="images/tiny-chef/med-fid - post recipe.png"] {
+    margin-top: 1%;
+    width: 100%;
+    height: auto;
+}
+
+
+img[src="images/tiny-chef/med-fid - buy ingredients.png"] {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 100%;
+    height: auto;
+}
+
+
+img[src="images/tiny-chef/home.png"] {
+    width: 90%;
+    height: auto;
+    margin-bottom: 3%;
+}
+
+img[src="images/tiny-chef/user profile.png"] {
+    width: 90%;
+    height: auto;
+    margin-bottom: 3%;
+}
+
+img[src="images/tiny-chef/market.png"] {
+    width: 90%;
+    height: auto;
+    margin-bottom: 3%;
+
+}
+
+
+img[src="images/tiny-chef/tiny chef screen.png"] {
+    width: 70%;
+    height: auto;
+    margin-top: -1%;
+}
+
