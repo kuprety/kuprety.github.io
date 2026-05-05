@@ -17,6 +17,8 @@ body {
     margin: 0;
     padding: 0;
     font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     background-color: rgb(252, 217, 220);
 
     line-height: 1.3;
