@@ -38,13 +38,6 @@ header {
 }
 
 
-.move-up {
-    margin-left: 33%;
-    margin-bottom: 2%;
-    width: 700px;
-
-}
-
 
 
 
@@ -224,55 +217,7 @@ p {
     width: 550px;
 }
 
-img[src="images/user needs.png"] {
-    width: 650px;
-    height: auto;
-    margin-bottom: 2.5%;
-}
 
-
-
-img[src="images/design thinking.png"] {
-    width: 650px;
-    height: auto;
-}
-
-img[src="images/rough sketch.png"] {
-    width: 650px;
-    margin-top: 0.2%;
-    height: auto;
-}
-
-img[src="images/lofi-login.png"],
-img[src="images/lofi-dashboard.png"] {
-    width: 650px;
-    height: auto;
-    padding-left: 25%;
-}
-
-img[src="images/lofi-login.png"] {
-    margin-bottom: -40px;
-}
-
-img[src="images/lofi-dashboard.png"] {
-    margin-bottom: -40px;
-}
-
-
-img[src="images/hifi-login.png"],
-img[src="images/hifi-dashboard.png"] {
-    width: 650px;
-    height: auto;
-    padding-left: 25%;
-}
-
-img[src="images/hifi-login.png"] {
-    margin-bottom: -40px;
-}
-
-img[src="images/hifi-dashboard.png"] {
-    margin-bottom: -20px;
-}
 
 #view {
     color: white;
@@ -568,71 +513,6 @@ ul li {
 
 
 
-img[src="images/couplet/competitor analysis.png"] {
-    width: 100%;
-    height: auto;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
-
-
-
-img[src="images/couplet/existing competitors.png"] {
-    width: 70%;
-    height: auto;
-    margin-top: -4%;
-    margin-bottom: 0%;
-}
-
-
-
-img[src="images/couplet/login.png"] {
-    width: 80%;
-    height: auto;
-    margin-bottom: 4%;
-    margin-top: -0.8%;
-}
-
-img[src="images/tiny-chef/user personas.png"] {
-    width: 100%;
-    height: auto;
-    margin-bottom: 0.5%;
-    margin-top: -2.8%;
-}
-
-img[src="images/tiny-chef/search and save recipe.png"] {
-    width: 100%;
-    height: auto;
-    margin-bottom: 2%;
-    margin-top: -3.8%;
-}
-
-img[src="images/tiny-chef/add diet restriction.png"] {
-    width: 100%;
-    height: auto;
-    margin-bottom: 2%;
-    margin-top: -3.8%;
-}
-
-img[src="images/tiny-chef/post recipe.png"] {
-    width: 75%;
-    height: auto;
-    margin-bottom: -2%;
-    margin-top: 1%;
-}
-
-img[src="images/tiny-chef/buy ingredients.png"] {
-    width: 90%;
-    height: auto;
-    margin-bottom: 5%;
-    margin-top: -1%;
-}
-
-
-
 .kirang-haerang-regular {
     font-family: "Kirang Haerang", system-ui;
     font-weight: 100;
@@ -858,16 +738,13 @@ hr {
 }
 
 
-.problem-row{
-    margin-right: 10%;
-    margin-left: 18.2%;
-
-    gap:16.2%;
-    margin-top:65px;
+.problem-row {
+    max-width: 1000px;   /* controls content width */
+    margin: 55px auto;   /* centers horizontally */
 
     font-family: 'DM Sans', sans-serif;
-    font-style: normal;
     font-weight: 300;
+    
 }
 
 .problem-row .horizontal-bold {
@@ -1024,12 +901,14 @@ ul li bold {
 .all-projects-text {
     font-size: 1.25rem;
     color: #C75862;
-    margin-top: 36px;
+    margin: 15px auto 3%;  
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 39%;
-    margin-bottom: 3%;
 
+    width: fit-content;    
+    text-align: center;
 }
+
 
 .all-projects-text a {
     color: #A41623;
@@ -1140,17 +1019,12 @@ img[src="images/tiny-chef/market.png"] {
 }
 
 
-img[src="images/tiny-chef/tiny chef screen.png"] {
-    width: 70%;
-    height: auto;
-    margin-top: -1%;
-}
-
 
 img[src="images/prakses/prakses personas.png"] {
+    
     width: 120%;
     height: auto; 
-    margin-left: -10%; 
+    margin-left: -9%; 
 }
 
 img[src="images/prakses/Competitor Analysis - Features.png"] {
@@ -1181,6 +1055,8 @@ img[src="images/prakses/prakses branding.png"] {
 img[src="images/prakses/lofi wireframes 1.png"] {
     width: 100%;
     height: auto; 
+    margin-top: -3%;
+
 
 }
 
@@ -1188,6 +1064,7 @@ img[src="images/prakses/lofi wireframes 1.png"] {
 img[src="images/prakses/hifi wireframe.png"] {
     width: 100%;
     height: auto; 
+    margin-top: -3%;
 
 }
 img[src="images/prakses/prakses component library.svg"] {
@@ -1217,4 +1094,5 @@ img[src="images/prakses/process book.png"] {
 
     height: auto; 
 }
+
 
