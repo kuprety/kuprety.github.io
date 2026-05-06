@@ -499,10 +499,16 @@ marquee {
 
 
 
+
+
 .all-projects-text {
     font-size: 1.25rem;
     color: #C75862;
-    margin-top: 15px;
+    margin: 15px auto;  
+    
+
+    width: fit-content;    
+    text-align: center;
 }
 
 .all-projects-text a {
