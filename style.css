@@ -18,7 +18,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 100%;
-    background-color: rgb(254, 212, 217);
+    background-color: #ffe7ee;
     font-size: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -95,7 +95,7 @@ header h1 {
 header h4 {
     margin-top: -46px;
     position: relative;
-    color: #C75862;
+    color: #C95C66;
     letter-spacing: 1px;
     font-size: 1.5em;
     font-weight:normal;
@@ -263,7 +263,7 @@ margin-bottom: 2.5%;
 }
 
 .highlight-auburn {
-    color: #C75862;
+    color: #C95C66;
 }
 
 hr {
@@ -503,7 +503,7 @@ marquee {
 
 .all-projects-text {
     font-size: 1.25rem;
-    color: #C75862;
+    color: #C95C66;
     margin: 15px auto;  
     
 
@@ -515,7 +515,7 @@ marquee {
     color: #A41623;
     font-weight: 600;
     text-decoration: none;
-    border-bottom: 1.5px solid #C75862;
+    border-bottom: 1.5px solid #C95C66;
     transition: all 0.3s ease; 
     /* transition: color 0.2s ease, border-bottom-color 0.2s ease; */
 }

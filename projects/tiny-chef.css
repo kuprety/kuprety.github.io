@@ -19,7 +19,7 @@ body {
     font-size: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    background-color: rgb(252, 217, 220);
+    background-color: #fbf0f4;
 
     line-height: 1.3;
 height: 90px;
@@ -1005,7 +1005,7 @@ ul li bold {
 }
 
 .black-background h2 {
-    color: rgb(252, 217, 220);
+    color: #fbf0f4;
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -1017,7 +1017,7 @@ ul li bold {
 }
 
 .white-background {
-    background-color: rgb(255, 219, 223);
+    background-color: #fbf0f4;
     padding-top: 1%;
     margin-top: 3%;
 
