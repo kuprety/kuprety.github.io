@@ -101,6 +101,7 @@ nav li a.current {
 .flex-container {
     display: flex;
     justify-content: space-around;
+    
 }
 
 
@@ -186,6 +187,7 @@ footer .footer-links a {
 
 #wrapper {
     text-align: center;
+
 }
 
 #wrapper h2, h3, p, footer {

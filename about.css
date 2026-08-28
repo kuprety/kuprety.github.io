@@ -22,7 +22,11 @@ header h1 {
     color: #C75862;
     letter-spacing: 1px;
     font-size: 3.8em;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(4%);
 }
+
 
 
 nav {
@@ -100,8 +104,8 @@ nav li a.current {
 }
 
 #wrapper h2, h3, p, footer {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 footer {
@@ -197,7 +201,13 @@ footer .footer-links a {
     width: 650px;
     margin-left: 40%;
     margin-right: auto;
+    min-height: calc(100vh - 500px);
+    transform: translateX(20px);
+
 }
+
+
+
 
 #about_me p {
     text-align: left;
@@ -237,13 +247,12 @@ footer .footer-links a {
 
 
 img[src="images/heart.gif"] {
-    position: absolute; 
-    width: 4%;
+    width: 4.2%;
     height: auto;
+    margin-left: 10px;
     top: 17%; 
-    right: 36%; 
-}
 
+}
 
 
 img[src="images/panda.gif"] {
@@ -278,7 +287,7 @@ img[src="images/photo of kritika 2.png"] {
     border-radius: 50%;
     float: left;
     position: relative;
-    top: -54px; 
+    margin-top: -4%; 
 }
 
 
