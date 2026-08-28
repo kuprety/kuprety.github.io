@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 100%;
-    background-color: #ffedf3;
+    background-color: #fdf2ee;
     font-size: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -205,8 +205,8 @@ footer .footer-links a {
 }
 
 #connect {
-    background-color: #E999A1;
-    border: #E999A1 5px solid;
+    background-color: #eda9af;
+    border: #eda9af 5px solid;
     font-weight: bold;
     margin-top: 3%;
     margin-right: 56%;
@@ -231,7 +231,7 @@ footer .footer-links a {
     height: 12%;
     width: 38%;
     font-size: 12pt;
-    color: #E999A1;
+    color: #eda9af;
     border-radius: 20px; 
 }
 
