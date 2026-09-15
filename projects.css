@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 100%;
-    background-color: #fdf2ee;
+    background-color: #fdf5f2;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -264,9 +264,9 @@ footer .footer-links a {
 }
 
 .text-container #learnMore:hover {
-    color: black;
-    background-color: white;
-    border: 2px solid white;
+    color: white;
+    background-color: #A41623;
+    border: 2px solid #A41623;
     transform: translateY(-2px);
 }
 
