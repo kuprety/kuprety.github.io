@@ -13,9 +13,14 @@
   a#name.kirang-haerang-regular {
     font-size: 1.9rem; /* bigger and absolute */
 }
+/* a:hover,
+button:hover {
+  cursor: url("other/wand-selected.svg") 6 6, auto;
+} */
 
 body {
     margin: 0;
+    /* cursor: url("other/wand.svg") 6 6, auto; */
     padding: 0;
     font-size: 100%;
     /* background-color: #ffedf3; */
@@ -487,6 +492,8 @@ marquee {
     background-color: #A41623;
     border: 2px solid #A41623;
     transform: translateY(-2px);
+    /* cursor: url("other/wand-selected.svg") 6 6, auto; */
+
 }
 
 
