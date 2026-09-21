@@ -1166,3 +1166,220 @@ img[src="images/lock-in/hifi (flow 3).svg"] {
     margin-left: -15%;
 
 }
+
+
+/* =========================================
+KEY INSIGHTS CAROUSEL
+========================================= */
+
+.insights-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1050px;
+    margin: 35px auto 0;
+    gap: 18px;
+    }
+    
+    /* The area that contains the current card */
+    .insights-window {
+    position: relative;
+    width: 820px;
+    min-height: 315px;
+    }
+    
+    /* Individual insight cards */
+    .insight-slide {
+    display: none;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 315px;
+    
+ 
+    padding: 45px 65px;
+    
+    border: 3px solid #f3b9cc;
+    border-radius: 8px;
+    
+    background-color: #fffefc;
+    
+    text-align: left;
+    
+    animation: insightFade 0.3s ease;
+
+    
+    }
+    
+    .insight-slide.active {
+    display: block;
+    }
+    
+    @keyframes insightFade {
+    from {
+    opacity: 0;
+    transform: translateX(8px);
+    }
+    
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    
+    }
+    
+    /* Number in upper corner */
+    .insight-number {
+    display: block;
+    
+
+    color: #A41623;
+    
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    
+    letter-spacing: 1px;
+    
+    margin-bottom: 15px;
+  
+    
+    }
+    
+    /* Insight title */
+    .insight-slide h3 {
+    margin: 0 0 18px 0;
+    
+
+    color: black;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    
+    line-height: 1.2;
+
+    
+    }
+    
+    /* Insight description */
+    .insight-slide p {
+    width: 100%;
+    margin: 0;
+    
+
+    color: black;
+    
+    font-family: "DM Sans", sans-serif;
+    font-size: 16.6px;
+    font-weight: 300;
+    line-height: 1.5rem;
+    
+    text-align: left;
+ 
+    
+    }
+    
+    /* Arrow buttons */
+    .carousel-arrow {
+    flex-shrink: 0;
+    
+
+    width: 48px;
+    height: 48px;
+    
+    border: 2px solid #f3b9cc;
+    border-radius: 50%;
+    
+    background-color: #f3b9cc;
+    
+    color: #A41623;
+    
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    
+    line-height: 1;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    cursor: pointer;
+    
+    transition: all 0.25s ease;
+   
+    
+    }
+    
+    .carousel-arrow:hover {
+    background-color: #A41623;
+    color: #f3b9cc;
+
+    border: 2px solid #A41623;
+
+    
+
+    transform: translateY(-2px);
+
+    
+    }
+    
+    /* Dots underneath */
+    .carousel-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    gap: 9px;
+    
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+    
+    }
+    
+    /* Individual dots */
+    .carousel-dot {
+    width: 9px;
+    height: 9px;
+    
+  
+    padding: 0;
+    
+    border: 1.5px solid #A41623;
+    border-radius: 50%;
+    
+    background-color: transparent;
+    
+    cursor: pointer;
+    
+    transition: all 0.25s ease;
+
+    
+    }
+    
+    /* Current slide dot */
+    .carousel-dot.active {
+    background-color: #A41623;
+    
+    transform: scale(1.15);
+
+    
+    }
+    
+    /* Hover state for dots */
+    .carousel-dot:hover {
+    background-color: #A41623;
+    }
+    
+    /* Keyboard focus accessibility */
+    .carousel-arrow:focus-visible,
+    .carousel-dot:focus-visible {
+    outline: 2px solid #d97b83;
+    outline-offset: 3px;
+    }
+    

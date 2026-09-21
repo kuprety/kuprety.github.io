@@ -15,7 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jua&family=Kirang+Haerang&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="icon" type="image/png" href="../images/favicon.png">
 
 </head>
@@ -165,7 +165,7 @@
                 <p id="space-on-top">
                     <span class="horizontal-bold">ACHIEVEMENTS</span>
                 </p>
-                <h2>What we accomplished</h2>
+                <h2>What We Accomplished</h2>
 
                 <ul class="accomplishment-list">
                     <li>
@@ -208,7 +208,7 @@
 
                     <span class="horizontal-bold">COMPETITOR ANALYSIS</span>
 
-                    <h2>Researching our competitors</h2>
+                    <h2>Researching Competitors</h2>
                     <div class="mini-description">
                         <p>
                             By looking into what's already out there and learning what features our
@@ -237,7 +237,7 @@
                     <br>
 
                     <span class="horizontal-bold">USER PERSONAS</span>
-                    <h2>Understanding our users</h2>
+                    <h2>Understanding Our Users</h2>
                     <p id="the-problem"></p>
 
                     <div class="mini-description">
@@ -306,70 +306,87 @@
                                     means to the
                                     company. </p>
 
-                                <br>
-                                <ul class="accomplishment-list">
-                                    <li>
-                                        <p><strong>Authenticity</strong> – At Couplet, the company values being genuine
-                                            to
-                                            itself and
-                                            its users. Couplet strives to create a genuine and transparent platform,
-                                            fostering
-                                            real
-                                            connections and embracing individuality and honesty in every interaction.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p><strong>Accessibility</strong> – Accessibility is a core value for Couplet.
-                                            The
-                                            company is
-                                            committed to making the app available and user-friendly across various
-                                            platforms,
-                                            ensuring
-                                            everyone can easily engage and connect. The platform also aims to make new
-                                            events
-                                            and
-                                            experiences accessible to all users.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <strong> Community</strong> – Couplet sees itself as more than an app; it's
-                                            a
-                                            community. The
-                                            company values the sense of belonging and shared experiences from connecting
-                                            with
-                                            others.
-                                            The platform allows users to feel part of a supportive and inclusive
-                                            community while
-                                            also
-                                            investing in community-based organizations.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <strong> Connection</strong> – Connection is at the heart of what Couplet
-                                            does. The
-                                            company
-                                            facilitates meaningful connections between individuals based on shared
-                                            experiences,
-                                            interests, and values, transcending superficial connections found in typical
-                                            dating
-                                            apps.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <strong> Inspiration</strong> – Couplet aims to inspire. Whether through the
-                                            connections
-                                            formed on the platform, an exciting experience, or the impact made on local
-                                            communities, the
-                                            company strives to be a source of inspiration, encouraging users to explore
-                                            new
-                                            connections
-                                            and possibilities.
-                                        </p>
-                                    </li>
-                                </ul>
+                 
+                              <!-- BRAND VALUES CAROUSEL -->
+
+<div class="brand-values-carousel">
+
+    <button class="brand-carousel-arrow brand-carousel-prev" id="brand-prev" aria-label="Previous brand value">
+        <i class="fa-solid fa-arrow-left"></i>
+    </button>
+
+    <div class="brand-values-window">
+
+        <div class="brand-value-slide active">
+            <span class="brand-value-number">01</span>
+            <h3>Authenticity</h3>
+            <p>
+                At Couplet, the company values being genuine to itself and its users.
+                Couplet strives to create a genuine and transparent platform, fostering
+                real connections and embracing individuality and honesty in every interaction.
+            </p>
+        </div>
+
+        <div class="brand-value-slide">
+            <span class="brand-value-number">02</span>
+            <h3>Accessibility</h3>
+            <p>
+                Accessibility is a core value for Couplet. The company is committed to
+                making the app available and user-friendly across various platforms,
+                ensuring everyone can easily engage and connect. The platform also aims
+                to make new events and experiences accessible to all users.
+            </p>
+        </div>
+
+        <div class="brand-value-slide">
+            <span class="brand-value-number">03</span>
+            <h3>Community</h3>
+            <p>
+                Couplet sees itself as more than an app; it's a community. The company
+                values the sense of belonging and shared experiences from connecting with
+                others. The platform allows users to feel part of a supportive and
+                inclusive community while also investing in community-based organizations.
+            </p>
+        </div>
+
+        <div class="brand-value-slide">
+            <span class="brand-value-number">04</span>
+            <h3>Connection</h3>
+            <p>
+                Connection is at the heart of what Couplet does. The company facilitates
+                meaningful connections between individuals based on shared experiences,
+                interests, and values, transcending superficial connections found in
+                typical dating apps.
+            </p>
+        </div>
+
+        <div class="brand-value-slide">
+            <span class="brand-value-number">05</span>
+            <h3>Inspiration</h3>
+            <p>
+                Couplet aims to inspire. Whether through the connections formed on the
+                platform, an exciting experience, or the impact made on local communities,
+                the company strives to be a source of inspiration, encouraging users to
+                explore new connections and possibilities.
+            </p>
+        </div>
+
+    </div>
+
+    <button class="brand-carousel-arrow brand-carousel-next" id="brand-next" aria-label="Next brand value">
+        <i class="fa-solid fa-arrow-right"></i>
+    </button>
+
+</div>
+
+<div class="brand-carousel-dots" aria-label="Brand value navigation">
+    <button class="brand-carousel-dot active" aria-label="Go to brand value 1"></button>
+    <button class="brand-carousel-dot" aria-label="Go to brand value 2"></button>
+    <button class="brand-carousel-dot" aria-label="Go to brand value 3"></button>
+    <button class="brand-carousel-dot" aria-label="Go to brand value 4"></button>
+    <button class="brand-carousel-dot" aria-label="Go to brand value 5"></button>
+</div>
+
 
                             </div>
 
@@ -1095,7 +1112,50 @@
                                                             </div>
                                                 </footer>
 
-                                   
+               
+                                                <!-- BRAND VALUES CAROUSEL JAVASCRIPT -->
+
+<script>
+    const brandValueSlides = document.querySelectorAll('.brand-value-slide');
+    const brandValueDots = document.querySelectorAll('.brand-carousel-dot');
+    const brandValuePrev = document.getElementById('brand-prev');
+    const brandValueNext = document.getElementById('brand-next');
+
+    let currentBrandValue = 0;
+
+    function showBrandValue(index) {
+
+        if (index < 0) {
+            currentBrandValue = brandValueSlides.length - 1;
+        } else if (index >= brandValueSlides.length) {
+            currentBrandValue = 0;
+        } else {
+            currentBrandValue = index;
+        }
+
+        brandValueSlides.forEach((slide, i) => {
+            slide.classList.toggle('active', i === currentBrandValue);
+        });
+
+        brandValueDots.forEach((dot, i) => {
+            dot.classList.toggle('active', i === currentBrandValue);
+        });
+    }
+
+    brandValueNext.addEventListener('click', () => {
+        showBrandValue(currentBrandValue + 1);
+    });
+
+    brandValuePrev.addEventListener('click', () => {
+        showBrandValue(currentBrandValue - 1);
+    });
+
+    brandValueDots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            showBrandValue(index);
+        });
+    });
+</script>
 </body>
 
 </html>
