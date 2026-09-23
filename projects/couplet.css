@@ -18,7 +18,7 @@ body {
     padding: 0;
     font-size: 100%;
     /* background-color: #fbf0f4; */
-    background-color: #fef7f4;
+    background-color: #fff9f6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
@@ -1099,7 +1099,7 @@ ul li bold {
 }
 
 .black-background h2 {
-    color: #fef7f4;
+    color: #fff9f6;
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -1111,7 +1111,7 @@ ul li bold {
 }
 
 .white-background {
-    background-color: #fef7f4;
+    background-color: #fff9f6;
     padding-top: 1%;
     margin-top: 3%;
 
@@ -1182,7 +1182,7 @@ BRAND VALUES CAROUSEL
     padding: 45px 65px;
     border: 3px solid #f3b9cc;
     border-radius: 8px;
-    background-color: #fffefc;
+    background-color: #fffefe;
     text-align: left;
     animation: brandValueFade 0.3s ease;
 }

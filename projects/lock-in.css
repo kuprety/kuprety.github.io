@@ -17,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 100%;
-    background-color: #fef7f4;
+    background-color: #fff9f6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     line-height: 1.3;
@@ -882,7 +882,7 @@ ul li bold {
 }
 
 .black-background h2 {
-    color: #fef7f4;
+    color: #fff9f6;
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -894,7 +894,7 @@ ul li bold {
 }
 
 .white-background {
-    background-color: #fef7f4;
+    background-color: #fff9f6;
     padding-top: 1%;
     margin-top: 3%;
 
@@ -1202,7 +1202,7 @@ KEY INSIGHTS CAROUSEL
     border: 3px solid #f3b9cc;
     border-radius: 8px;
     
-    background-color: #fffefc;
+    background-color: #fffefe;
     
     text-align: left;
     
