@@ -16,15 +16,17 @@ header {
     margin-left: auto;
 }
 
+
+
 header h1 {
     position: relative;
     margin-top: 1.4%;
+    margin-left: 42%;
+    margin-right: auto;
     color: #C75862;
     letter-spacing: 1px;
     font-size: 3.8em;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translateX(4%);
+    text-align: left;
 }
 
 
@@ -247,7 +249,7 @@ footer .footer-links a {
 
 
 img[src="images/heart.gif"] {
-    width: 4.2%;
+    width: 7%;
     height: auto;
     margin-left: 10px;
     top: 17%; 
