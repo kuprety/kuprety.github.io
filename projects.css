@@ -22,6 +22,7 @@ header h1 {
     font-size: 3.4em; /* match home page featured projects heading */
     top: 30px;
     margin-bottom: 4.5%;
+    text-align: center;
 }
 
 nav {
@@ -178,10 +179,10 @@ footer .footer-links a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 34px;          /* same as home page projects-preview */
+    gap: 3.5%;          /* same as home page projects-preview */
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2%;
+    padding: 0 0%;
 }
 /* =========================
    PROJECT CARDS
@@ -199,11 +200,11 @@ footer .footer-links a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 6%;
     text-align: left;
 
-    padding-left: 4pt;
-    padding-right: 4pt;
+    padding-left: 1%;
+    padding-right: 1%;
 
     border-radius: 20px;
 

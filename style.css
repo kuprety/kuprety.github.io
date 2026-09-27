@@ -737,7 +737,7 @@ marquee {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 34px;
+    gap: 3.5%;
     margin-top: 30px;
 }
 
