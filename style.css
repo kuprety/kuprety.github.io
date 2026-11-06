@@ -1,4 +1,3 @@
-
 /*Kritika Uprety*/
 
 .kirang-haerang-regular {
@@ -7,12 +6,12 @@
     font-style: normal;
     text-transform: lowercase;
     color: #2b140d;
-
-  }
-
-  a#name.kirang-haerang-regular {
-    font-size: 1.9rem; /* bigger and absolute */
 }
+
+a#name.kirang-haerang-regular {
+    font-size: 1.9rem;
+}
+
 /* p,
 
 h2,
@@ -41,7 +40,6 @@ body {
     font-size: 100%;
     /* background-color: #ffedf3; */
     background-color: #fff9f6;
-
     font-size: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -59,21 +57,18 @@ nav {
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-bottom: 1.0%;
-
     padding-top: 1.0%;
-
     word-spacing: 1em;
     height: 80px;
 }
 
 #name img#logo {
-    width: 19px;        /* keeps it 40px wide */
-    height: 19px;       /* keeps it 40px tall */
-    vertical-align: middle;  /* aligns with the text */
-    margin-right: -5px;       /* space between logo and text */
+    width: 19px;
+    height: 19px;
+    vertical-align: middle;
+    margin-right: -5px;
     padding-bottom: 4px;
 }
-
 
 nav li {
     vertical-align: middle;
@@ -81,30 +76,31 @@ nav li {
     margin-left: 11px;
 }
 
-#navbar-text{
+#navbar-text {
     font-size: 13pt;
     float: right;
-  padding:15px 0 0 0
+    padding: 15px 0 0 0;
 }
+
 nav li a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
 }
 
 nav li a:hover,
 nav li a.current {
     color: #A41623;
-    background-color: #f3b9cc; 
+    background-color: #f3b9cc;
     border-radius: 5px;
     padding: 2px 4px;
 }
 
 .logo-link:hover,
 .logo-link:active {
-    background-color: transparent;  /* no pink */
-    color: inherit;                 /* keep original color */
+    background-color: transparent;
+    color: inherit;
 }
 
 header h1 {
@@ -119,31 +115,22 @@ header h1 {
     font-family: "Schoolbell", cursive;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
 
-  
-  
 header h4 {
     margin-top: -48px;
     font-family: "Klee One", cursive;
-
     position: relative;
     color: #D16C75;
     letter-spacing: 1px;
     font-size: 1.32em;
-    font-weight:bold;
-    
-    /* -webkit-text-stroke: 0.2px rgb(255, 196, 202); /* subtle outline */
-
-    /* color: #C75862;                     keep fill visible */
-
+    font-weight: bold;
+    /* -webkit-text-stroke: 0.2px rgb(255, 196, 202); */
+    /* color: #C75862; */
 }
-
 
 #img-container {
     display: block;
-
 }
 
 footer {
@@ -157,9 +144,9 @@ footer {
 footer img {
     position: absolute;
     right: 192px;
-    bottom: 28px;   /* adjust to place it nicely */
-    width: 90px;    /* controls size */
-    pointer-events: none; 
+    bottom: 28px;
+    width: 90px;
+    pointer-events: none;
 }
 
 .external-icon {
@@ -168,28 +155,25 @@ footer img {
 
 footer .all-footer-content {
     margin-left: 180px;
-
 }
 
 footer .footer-left {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* left align */
+    align-items: flex-start;
 }
 
 footer .footer-credit {
-    font-size: 1.4rem; /* larger text */
+    font-size: 1.4rem;
     font-weight: 600;
     color: black;
     margin-bottom: 2px;
-
 }
 
 footer .love-made {
     font-size: 1.0rem;
     margin-bottom: 12px;
     color: black;
-
 }
 
 footer .heart {
@@ -199,7 +183,7 @@ footer .heart {
 
 footer .footer-links {
     display: flex;
-    flex-direction: column; /* stack links */
+    flex-direction: column;
     font-size: 1.3em;
     gap: 8px;
     text-align: left;
@@ -209,37 +193,29 @@ footer .footer-links a {
     color: #A41623;
     text-decoration: underline;
     font-weight: 500;
-    border-radius: 5px; /* same as hover */
-    transition: all 0.3s ease; 
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
 
- }
- 
- 
- footer .footer-links a:hover {
+footer .footer-links a:hover {
     color: #A41623;
     background-color: rgb(250, 227, 227);
     border-radius: 5px;
     padding: 2px 4px;
- }
- 
- 
+}
 
 .all-projects-text a:hover {
     color: #A41623;
-    background-color: #f3b9cc; 
+    background-color: #f3b9cc;
     border-radius: 5px;
     padding: 2px 4px;
 }
 
-
-
-
-
 #wrapper {
     text-align: center;
-
     padding: 0px;
 }
+
 #wrapper h2, h3, p, footer {
     padding-left: 20px;
     padding-right: 20px;
@@ -250,9 +226,8 @@ img[src="images/kritika1.JPEG"] {
     height: 396px;
     display: block;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
-
 
 .card {
     display: block;
@@ -270,7 +245,6 @@ img[src="images/kritika1.JPEG"] {
     user-select: none;
     -webkit-user-drag: none;
 }
-
 
 /* ================================
    HERO SPARKLES
@@ -303,6 +277,72 @@ img[src="images/kritika1.JPEG"] {
         transform 0.4s cubic-bezier(.16, 1, .3, 1);
 }
 
+/* ================================
+   ROUND STICKERS (hero)
+================================ */
+
+.sticker {
+    position: absolute;
+    z-index: 2;
+    width: 145px;
+    height: 145px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Klee One", cursive;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.25;
+    box-shadow: 2px 4px 0 rgba(164, 22, 35, 0.18);
+    transition: transform 0.3s ease;
+}
+
+.sticker small {
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    opacity: 0.85;
+    margin-bottom: 5px;
+}
+
+/* Pink sticker, bottom-right of portrait */
+.sticker-2 {
+    right: 26.5%;
+    top: 48%;
+    width: 165px;
+    height: 165px;
+    padding: 12px;
+    font-size: 0.78rem;
+    background: #f3b9cc;
+    color: #A41623;
+    border: 3px dashed #fff9f6;
+    outline: 4px solid #f3b9cc;
+    transform: rotate(8deg);
+}
+
+.sticker-sep {
+    margin: 4px 0;
+    font-size: 0.8rem;
+}
+
+/* Red sticker, top-left of portrait */
+.sticker-1 {
+    left: 26%;
+    top: 12%;
+    background: #A41623;
+    color: #fff9f6;
+    border: 3px dashed #f3b9cc;
+    outline: 4px solid #A41623;
+    transform: rotate(-10deg);
+}
+
+.sticker:hover {
+    transform: rotate(0deg) scale(1.06);
+}
 
 /* ================================
    SPEECH BUBBLE
@@ -310,70 +350,48 @@ img[src="images/kritika1.JPEG"] {
 
 .speech-bubble {
     position: absolute;
-
-    /* position above/right of the portrait */
     left: 55%;
     top: 26%;
-
     z-index: 4;
-
     background-color: #A41623;
     color: #fff9f6;
-
     font-family: "Klee One", cursive;
     font-size: 17px;
     font-weight: 600;
-
     padding: 8px 14px 9px 14px;
-
     border: 2px solid #A41623;
     border-radius: 50%;
-
     white-space: nowrap;
-
     opacity: 0;
     transform: scale(0) rotate(4deg);
-
     transition:
         opacity 0.2s ease,
         transform 0.4s cubic-bezier(.16, 1, .3, 1);
-
     pointer-events: none;
 }
 
-
 /* little speech-bubble tail */
-
 .speech-bubble::after {
     content: "";
-
     position: absolute;
-
     bottom: -11px;
     left: 18px;
-
     width: 0;
     height: 0;
-
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-top: 13.7px solid #A41623;
-
     transform: rotate(15deg);
 }
 
-
-/* only appear when the actual GIF is hovered */
-
-.hero-figure:has(.card img:hover) .speech-bubble {
+/* Show speech bubble when hovering the GIF OR pink sticker */
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .speech-bubble {
     opacity: 1;
     transform: scale(1) rotate(4deg);
 }
 
-
-/* disappear immediately when leaving image */
-
-.hero-figure:not(:has(.card img:hover)) .speech-bubble {
+/* Disappear when leaving both hover targets */
+.hero-figure:not(:has(.card img:hover, .sticker-2:hover, .sticker-1:hover)) .speech-bubble {
     transition-delay: 0s;
 }
 
@@ -382,7 +400,6 @@ img[src="images/kritika1.JPEG"] {
 ================================ */
 
 /* UPPER LEFT */
-
 .s1 {
     left: 29%;
     top: 12%;
@@ -404,10 +421,7 @@ img[src="images/kritika1.JPEG"] {
     rotate: -8deg;
 }
 
-
-/* LEFT SIDE
-   brought closer to image */
-
+/* LEFT SIDE */
 .s4 {
     left: 26%;
     top: 29%;
@@ -429,10 +443,7 @@ img[src="images/kritika1.JPEG"] {
     rotate: 12deg;
 }
 
-
-/* TOP
-   keeping these in essentially the same positions */
-
+/* TOP */
 .s7 {
     left: 51%;
     top: 2%;
@@ -440,9 +451,7 @@ img[src="images/kritika1.JPEG"] {
     rotate: 10deg;
 }
 
-
 /* UPPER RIGHT */
-
 .s8 {
     left: 61%;
     top: 6%;
@@ -457,10 +466,7 @@ img[src="images/kritika1.JPEG"] {
     rotate: 8deg;
 }
 
-
-/* RIGHT SIDE
-   brought closer to image */
-
+/* RIGHT SIDE */
 .s10 {
     left: 73%;
     top: 34%;
@@ -482,9 +488,7 @@ img[src="images/kritika1.JPEG"] {
     rotate: -12deg;
 }
 
-
 /* BOTTOM */
-
 .s13 {
     left: 56%;
     top: 78%;
@@ -499,107 +503,96 @@ img[src="images/kritika1.JPEG"] {
     rotate: -10deg;
 }
 
-
 /* ================================
    HOVER
-================================ */
-/* ================================
-   HOVER
-   Only trigger when hovering the GIF
+   Trigger when hovering the GIF OR pink sticker
 ================================ */
 
-.hero-figure:has(.card img:hover) .sparkle {
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .sparkle {
     opacity: 1;
     transform: scale(1) rotate(0deg);
 }
 
-
-/* staggered appearance */
-
-.hero-figure:has(.card img:hover) .s1 {
+/* Staggered appearance */
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .s1 {
     transition-delay: 0.02s;
 }
 
-.hero-figure:has(.card img:hover) .s2 {
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .s2 {
     transition-delay: 0.07s;
 }
 
-.hero-figure:has(.card img:hover) .s3 {
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .s3 {
     transition-delay: 0.12s;
 }
 
-.hero-figure:has(.card img:hover) .s4 {
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .s4 {
     transition-delay: 0.16s;
 }
 
-.hero-figure:has(.card img:hover) .s5 {
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .s5 {
     transition-delay: 0.21s;
 }
 
-.hero-figure:has(.card img:hover) .s6 {
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .s6 {
     transition-delay: 0.26s;
 }
 
-.hero-figure:has(.card img:hover) .s7 {
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .s7 {
     transition-delay: 0.10s;
 }
 
-.hero-figure:has(.card img:hover) .s8 {
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .s8 {
     transition-delay: 0.17s;
 }
 
-.hero-figure:has(.card img:hover) .s9 {
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .s9 {
     transition-delay: 0.24s;
 }
 
-.hero-figure:has(.card img:hover) .s10 {
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .s10 {
     transition-delay: 0.30s;
 }
 
-.hero-figure:has(.card img:hover) .s11 {
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .s11 {
     transition-delay: 0.36s;
 }
 
-.hero-figure:has(.card img:hover) .s12 {
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .s12 {
     transition-delay: 0.42s;
 }
 
-.hero-figure:has(.card img:hover) .s13 {
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .s13 {
     transition-delay: 0.47s;
 }
 
-.hero-figure:has(.card img:hover) .s14 {
+.hero-figure:has(.card img:hover, .sticker-2:hover, .sticker-1:hover) .s14 {
     transition-delay: 0.52s;
 }
 
-
-/* disappear quickly when mouse leaves the image */
-
-.hero-figure:not(:has(.card img:hover)) .sparkle {
+/* Disappear after leaving both the image and pink sticker */
+.hero-figure:not(:has(.card img:hover, .sticker-2:hover, .sticker-1:hover)) .sparkle {
     transition-delay: 0.21s !important;
 }
 
 .mini-description p {
-margin-top: 6.5%;
-font-size: 15.5pt;
-line-height: 1.3;
-color: #211c1c;
--webkit-text-stroke: 0.25px rgb(255, 196, 202); /* subtle outline */
-
+    margin-top: 6.5%;
+    font-size: 15.5pt;
+    line-height: 1.3;
+    color: #211c1c;
+    -webkit-text-stroke: 0.25px rgb(255, 196, 202);
 }
 
 .prev-experience-description p {
     font-size: 11.8pt;
-line-height: 1.3;
-color: #211c1c;
-font-weight: normal;
-
+    line-height: 1.3;
+    color: #211c1c;
+    font-weight: normal;
 }
 
 .prev-experience-description {
-margin-bottom: 2.5%;
+    margin-bottom: 2.5%;
 }
-
 
 .highlight-red {
     color: #A41623;
@@ -610,21 +603,18 @@ margin-bottom: 2.5%;
 }
 
 hr {
-    border: none; 
-    
+    border: none;
     width: 34%;
-    height: 1px; 
+    height: 1px;
     background-color: #d97b83;
-    margin: 0 auto; 
-  }
-  
-
-.mini-description {
-    text-align: center; /* this is what keeps text centered */
-    width: 40%;
-    margin: 0 auto; /* and this centers the div itself */
+    margin: 0 auto;
 }
 
+.mini-description {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
 
 h2 {
     text-align: center;
@@ -636,36 +626,28 @@ p {
 }
 
 #name {
-
     font-size: 13pt;
-
     float: left;
-  padding:15px 0 0 0;
-  word-spacing: 4px;
+    padding: 15px 0 0 0;
+    word-spacing: 4px;
 }
-
 
 #content {
     margin-left: auto;
     margin-right: auto;
 }
 
-
 #intro {
     background-color: #A41623;
     border: 4px solid A41623;
     color: white;
-
 }
 
 #intro p {
     margin-left: auto;
     margin-right: auto;
-
     width: 55%;
-
     text-align: center;
-
 }
 
 marquee {
@@ -674,7 +656,6 @@ marquee {
     border: #A41623 3px;
     padding-top: 10px;
     padding-bottom: 10px;
-
     color: #A41623;
     word-spacing: 40px;
     font-size: larger;
@@ -682,7 +663,7 @@ marquee {
 }
 
 #play {
-    border:black 3pt solid;
+    border: black 3pt solid;
     background-color: black;
     color: white;
     font-size: 12pt;
@@ -693,9 +674,7 @@ marquee {
 }
 
 #play:hover {
-
     cursor: pointer;
- 
 }
 
 .projects-header h1 {
@@ -705,31 +684,51 @@ marquee {
     letter-spacing: 1px;
     font-size: 3.4em;
     top: 30px;
-
 }
-
-
 
 /* =========================
    featured projects section
    ========================= */
 
-   .featured-work h1 {
+.featured-work h1 {
     position: relative;
     color: #A41623;
     letter-spacing: 1px;
     font-size: 3.4em;
     margin-bottom: 2.8%;
-
 }
 
 /* Container for all featured projects */
 .featured-work {
     max-width: 1200px;
-    margin: 55px auto;      /* spacing from other sections */
+    margin: 55px auto;
     margin-bottom: 48px;
     padding: 0 2%;
     text-align: center;
+}
+
+/* Note under the "featured projects" heading */
+.featured-note {
+    font-size: 1.25rem;
+    color: #C95C66;
+    margin: -14px auto 0;
+    width: fit-content;
+    text-align: center;
+}
+
+.featured-note a {
+    color: #A41623;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1.5px solid #C95C66;
+    transition: all 0.3s ease;
+}
+
+.featured-note a:hover {
+    color: #A41623;
+    background-color: #f3b9cc;
+    border-radius: 5px;
+    padding: 2px 4px;
 }
 
 /* Projects preview container (flex layout 2-in-a-row) */
@@ -741,7 +740,6 @@ marquee {
     margin-top: 30px;
 }
 
-
 /* =========================
    FEATURED PROJECT CARDS
    ========================= */
@@ -752,7 +750,6 @@ marquee {
     width: 48%;
     text-decoration: none;
     color: inherit;
-    
 }
 
 /* Individual project card */
@@ -765,11 +762,8 @@ marquee {
     text-align: left;
     padding-left: 4pt;
     padding-right: 4pt;
-
     transition: transform 0.4s ease, background-color 0.4s ease;
     border-radius: 10pt;
-
-    ;
 }
 
 /* Lift entire card slightly on hover */
@@ -778,15 +772,12 @@ marquee {
     padding-left: 4pt;
     padding-right: 4pt;
     border-radius: 10pt;
-
 }
-
 
 /* Image container */
 .projects figure .card {
     width: 100%;
 }
-
 
 /* Project images */
 .projects img {
@@ -795,7 +786,6 @@ marquee {
     object-fit: cover;
     border-radius: 16px;
     margin-bottom: -5px;
-
     transition: transform 0.3s ease;
 }
 
@@ -804,12 +794,10 @@ marquee {
     transform: scale(1.02);
 }
 
-
 /* Text container */
 .text-container {
     padding: 3%;
 }
-
 
 /* Project title */
 .text-container h2 {
@@ -819,10 +807,8 @@ marquee {
     margin-top: 0px;
     margin-bottom: 15px;
     text-align: left;
-
     transition: color 0.4s ease;
 }
-
 
 /* Project description */
 .text-container p {
@@ -831,7 +817,6 @@ marquee {
     margin-top: 10px;
     text-align: left;
 }
-
 
 /* Chips */
 .project-chips {
@@ -851,7 +836,6 @@ marquee {
     margin-bottom: 5px;
 }
 
-
 /* "Take a peek" CTA */
 .learn-more {
     display: inline-block;
@@ -866,13 +850,11 @@ marquee {
     margin-left: 15px;
     border-radius: 6px;
     text-align: center;
-
     transition:
         background-color 0.4s ease,
         border-color 0.4s ease,
         transform 0.4s ease;
 }
-
 
 /* Whole card hover affects CTA */
 .project-link:hover .learn-more {
@@ -882,16 +864,13 @@ marquee {
     transform: translateY(-2px);
 }
 
-
 /* Whole card hover affects title */
 .project-link:hover .text-container h2 {
     color: #2b140d;
 }
 
-
 /* Responsive */
 @media (max-width: 900px) {
-
     .project-link {
         width: 100%;
     }
@@ -901,27 +880,18 @@ marquee {
     }
 }
 
-
-
-
 /* Responsive adjustments */
 @media (max-width: 900px) {
     .projects {
-        width: 100%;  /* single column on smaller screens */
+        width: 100%;
     }
 }
-
-
-
-
 
 .all-projects-text {
     font-size: 1.25rem;
     color: #C95C66;
-    margin: 15px auto;  
-    
-
-    width: fit-content;    
+    margin: 15px auto;
+    width: fit-content;
     text-align: center;
 }
 
@@ -930,14 +900,12 @@ marquee {
     font-weight: 600;
     text-decoration: none;
     border-bottom: 1.5px solid #C95C66;
-    transition: all 0.3s ease; 
-    /* transition: color 0.2s ease, border-bottom-color 0.2s ease; */
+    transition: all 0.3s ease;
 }
 
 .all-projects-text a:hover {
     color: #A41623;
-    background-color: #f3b9cc; 
+    background-color: #f3b9cc;
     border-radius: 5px;
     padding: 2px 4px;
 }
-

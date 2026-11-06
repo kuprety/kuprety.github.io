@@ -1302,3 +1302,9 @@ BRAND VALUES CAROUSEL
     outline: 2px solid #d97b83;
     outline-offset: 3px;
 }
+
+.pink-highlight {
+    background: #ffd3e2;  
+    padding: 2px 4px;
+    border-radius: 4px;
+}
