@@ -15,11 +15,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Klee+One:wght@400;600&family=Playwrite+BE+WAL+Guides&family=Playwrite+BE+WAL:wght@100..400&family=Playwrite+HR+Lijeva:wght@100..400&family=Playwrite+IE:wght@100..400&family=Schoolbell&display=swap" rel="stylesheet">
 
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        <link rel="preload" as="image" href="images/bunuu2.gif">
 
 </head>
 
@@ -54,7 +53,9 @@
 
             <div class="card">
                 <img src="images/bunuu2.gif"
-                     alt="Hand-drawn portrait of Kritika inside an animated heart">
+                alt="Hand-drawn portrait of Kritika inside an animated heart"
+                fetchpriority="high"
+                decoding="async">
             </div>
 
             <div class="sticker sticker-1">
@@ -162,8 +163,11 @@
                     
                             <figure>
                                 <div class="card">
-                                    <img src="images/prakses_img.png" alt="Prakses project">
-                                </div>
+                                    <img src="images/prakses_img.png"
+                                    alt="Prakses project"
+                                    loading="lazy"
+                                    decoding="async">
+                                                                </div>
                             </figure>
                     
                             <div class="text-container">
@@ -192,7 +196,8 @@
                     
                             <figure>
                                 <div class="card">
-                                    <img src="images/couplet.png" alt="Couplet project">
+                                    <img src="images/couplet.png" loading="lazy"
+                                    decoding="async" alt="Couplet project">
                                 </div>
                             </figure>
                     
@@ -316,7 +321,8 @@
 
         <footer>
             <div class="all-footer-content">
-                <img src="images/heart-sparkle 1.gif">
+                <img src="images/heart-sparkle 1.gif" loading="lazy"
+                decoding="async">
                 <div class="footer-left">
                     <div class="footer-credit">
                         © 2026 kritika uprety
