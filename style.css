@@ -319,10 +319,13 @@ img[src="images/kritika1.JPEG"] {
     font-size: 0.78rem;
     background: #f3b9cc;
     color: #A41623;
+    font-weight: bold;
     border: 3px dashed #fff9f6;
     outline: 4px solid #f3b9cc;
     transform: rotate(8deg);
 }
+
+
 
 .sticker-sep {
     margin: 4px 0;
@@ -908,4 +911,13 @@ marquee {
     background-color: #f3b9cc;
     border-radius: 5px;
     padding: 2px 4px;
+}
+
+.hero-figure {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.hero-figure.loaded {
+    opacity: 1;
 }

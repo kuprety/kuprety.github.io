@@ -297,7 +297,20 @@
 
 
         </script>
+<script>
+    const heroImage = document.querySelector('.hero-figure .card img');
+    const heroFigure = document.querySelector('.hero-figure');
 
+    function showHero() {
+        heroFigure.classList.add('loaded');
+    }
+
+    if (heroImage.complete && heroImage.naturalWidth > 0) {
+        showHero();
+    } else {
+        heroImage.addEventListener('load', showHero);
+    }
+</script>
 
 
 
