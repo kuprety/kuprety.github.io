@@ -343,3 +343,28 @@ footer .footer-links a {
   a#name.kirang-haerang-regular {
     font-size: 1.9rem; /* bigger and absolute */
 }
+
+
+
+
+/* Larger desktop screens */
+@media (min-width: 1500px) {
+    #projects-container {
+        max-width: 1500px;
+        gap: 0px;
+    }
+
+    .projects img {
+        width: 640px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .text-container h2 {
+        font-size: 27pt;
+    }
+
+    .text-container p {
+        font-size: 15pt;
+    }
+}

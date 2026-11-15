@@ -217,9 +217,10 @@ footer .footer-links a {
 }
 
 #connect {
-    background-color: #eda9af;
-    border: #eda9af 5px solid;
+    background-color: #f3b9cc;
+    border: #f3b9cc 5px solid;
     font-weight: bold;
+    padding: 3px;
     margin-top: 3%;
     margin-right: 56%;
     height: 12%;
@@ -243,7 +244,7 @@ footer .footer-links a {
     height: 12%;
     width: 38%;
     font-size: 12pt;
-    color: #eda9af;
+    color: #f3b9cc;
     border-radius: 20px; 
 }
 
