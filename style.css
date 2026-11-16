@@ -1067,7 +1067,7 @@ marquee {
 
 /* Pom pom */
 .pompom {
-    --px: 47%;   /* left / right */
+    --px: 47.8%;   /* left / right */
     --py: 1%;    /* up / down */
     --pw: 22%;   /* size */
     z-index: 0;
