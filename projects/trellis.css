@@ -13,9 +13,7 @@
   font-family: "Kirang Haerang", cursive;
   
   font-weight: 400;
-  
-      /* or 500 if you want bolder */
-  
+    
   
   
   float: left;
@@ -2485,7 +2483,7 @@
   --trellis-wisteria: #C7B1F2;
   --trellis-blush: #FFD7EB;
   --trellis-butter: #FFE791;
-  --trellis-cream: #FFFDF7;
+  --trellis-cream: #fff9f6;
   --trellis-error: #FC1E01;
   --trellis-mint: #E8F1EA;
   --trellis-muted: #58616A;
