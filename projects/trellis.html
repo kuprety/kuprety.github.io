@@ -11,7 +11,6 @@
 
     <title>Trellis | Kritika Uprety</title>
 
-    <!-- All Prakses portfolio styling is duplicated in trellis.css; no external page CSS dependency. -->
     <link rel="stylesheet" href="trellis.css">
     <link rel="stylesheet" href="https://use.typekit.net/kpz7ubx.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -63,7 +62,7 @@
 
         <div class="mini-description">
             <p>
-              A mentorship platform that matches parents returning to work after a career break with mentors who made the same move. I designed the first impression, the onboarding, and the dashboard, then coded designs into working prototype.
+              A mentorship platform that matches parents returning to work after a caregiving break with mentors who made the same move. I contributed to research, designed the pre-account experience, onboarding, and mentor dashboard, and turned our designs into a working prototype.
             </p>
         </div>
     </div>
@@ -76,8 +75,8 @@
         <div class="item">
             <span class="horizontal-bold">ROLE</span>
             <br>
-            <p id="horizontal-description">Product Designer</p>
-            <p id="horizontal-description">Front-end Prototyper</p>
+            <p id="horizontal-description">Product designer</p>
+            <p id="horizontal-description">Front-end prototyper</p>
         </div>
 
         <div class="item">
@@ -96,7 +95,7 @@
         <div class="item">
             <span class="horizontal-bold">TIME CONSTRAINT</span>
             <br>
-            <p id="horizontal-description">2 to 3 months</p>
+            <p id="horizontal-description">2 months</p>
         </div>
     </div>
 
@@ -154,6 +153,129 @@
 
     <br>
 
+    <!-- Research -->
+    <div class="process">
+
+        <div class="black-background">
+            <h2>Research</h2>
+        </div>
+
+        <div class="white-background">
+            <div class="problem-row">
+
+                <span class="horizontal-bold">APPROACH</span>
+                <h2>We interviewed six caregivers to find what actually stands in the way</h2>
+
+                <div class="mini-description">
+                    <p>
+                        We began with a broad question: how do parents get back to work after caregiving?
+                        To go beyond secondary research, we ran 30-minute semi-structured interviews with
+                        working parents, active job seekers, and founders, from a developer to a retail
+                        associate to a midlife career changer.
+                    </p>
+                </div>
+
+                <div class="rs-band">
+                    <div class="rs-stat">
+                        <span class="rs-stat-num">6</span>
+                        <p>caregivers interviewed</p>
+                    </div>
+                    <div class="rs-stat">
+                        <span class="rs-stat-num">30</span>
+                        <p>minute semi-structured sessions</p>
+                    </div>
+                    <div class="rs-stat">
+                        <span class="rs-stat-num">4</span>
+                        <p>core findings</p>
+                    </div>
+                </div>
+                
+                <ol class="rs-flow">
+                    <li>
+                        <h3>Interview</h3>
+                        <p>Ten questions on motivation, support, job search, and childcare</p>
+                    </li>
+                    <li>
+                        <h3>Open coding</h3>
+                        <p>Pulled constraints, barriers, and motivations out of every transcript</p>
+                    </li>
+                    <li>
+                        <h3>Affinity mapping</h3>
+                        <p>Grouped codes across all six interviews into themes</p>
+                    </li>
+                    <li>
+                        <h3>Findings</h3>
+                        <p>Distilled the themes into four findings that shaped the product</p>
+                    </li>
+                </ol>
+            
+
+                <div class="shots">
+                    <figure class="shot">
+                        <figcaption class="shot-head">
+                            <span class="shot-label">AFFINITY MAP</span>
+                            <p>
+                                Every code from the six transcripts, clustered into themes to identify patterns and key themes.
+                            </p>
+                        </figcaption>
+                        <div class="shot-frame">
+                            <!-- TODO: export the affinity map from Figma and save it at this path -->
+                            <img src="images/trellis/affinity-map.svg"
+                                 alt="Affinity map grouping coded interview statements from six caregivers into themes about returning to work">
+                        </div>
+                    </figure>
+                </div>
+
+ 
+                <div class="details-block">
+                    <span class="horizontal-bold">WHAT WE LEARNED</span>
+                
+                    <div class="rs-findings">
+                        <article class="rs-finding rs-f1">
+                            <span class="rs-tag">Finding 1</span>
+                            <h3>Finding a job that fits around caregiving is difficult</h3>
+                            <p>
+                                Caregiving leaves little time or energy to search, and school and care
+                                schedules rule out many roles. As one parent put it, <em>"I can't control the
+                                schedule."</em>
+                            </p>
+                        </article>
+                
+                        <article class="rs-finding rs-f2">
+                            <span class="rs-tag">Finding 2</span>
+                            <h3>Parents worry their gap will count against them</h3>
+                            <p>
+                                Parents were confident in their abilities but anxious about how employers
+                                would read a career break.
+                            </p>
+                        </article>
+                
+                        <article class="rs-finding rs-f3">
+                            <span class="rs-tag">Finding 3</span>
+                            <h3>Parents put in the effort but rarely hear why they're rejected</h3>
+                            <p>
+                                One application can take 45 minutes to an hour, and parents described
+                                receiving frequent rejections with little to no explanation why.
+                            </p>
+                        </article>
+                
+                        <article class="rs-finding rs-f4">
+                            <span class="rs-tag">Finding 4</span>
+                            <h3>Parents want people who understand them</h3>
+                            <p>
+                                They return for income, independence, and connection. They valued support from people in the same situation.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+                                </div>
+
+
+        </div>
+    </div>
+
+    <br>
+
     <!-- Design direction -->
     <div class="process">
 
@@ -169,21 +291,53 @@
 
                 <div class="mini-description">
                     <p>
-                        We started out thinking about how to help parents find jobs that fit their lives.
-                        Our interviews kept pointing somewhere else. Parents told us a role can match their
-                        skills and still clash with their daily schedule, and they felt unsure about how
-                        employers would see their break. What they valued most was advice from people who
-                        understood their situation.
-                    </p>
-
-                    <p>
-                        This became our set of six design requirements. The two that shaped my screens the
-                        most were <strong>accommodate diverse return-to-work goals</strong>, because there
-                        is no single definition of a successful return, and <strong>gain clarity on career
-                        paths via mentorship</strong>.
+                        We started out designing a way to help parents find jobs that fit their lives. The
+                        findings pointed somewhere else. The hardest parts of returning were uncertainty
+                        and isolation, and what parents valued most was advice from people who had been
+                        through it. So we shifted from job search to mentorship, and translated the
+                        findings into six design requirements.
                     </p>
                 </div>
+                <div class="rs-trace">
 
+                    <div class="rs-trace-head" aria-hidden="true">
+                        <span>What we heard</span><span></span>
+                        <span>What it required</span><span></span>
+                        <span>What I designed</span>
+                    </div>
+                
+                    <div class="rs-trace-row">
+                        <div class="rs-cell rs-cell-finding" data-label="What we heard">
+                            <p>Caregivers return for different reasons, and value people who understand them</p>
+                        </div>
+                        <span class="rs-arrow" aria-hidden="true">→</span>
+                        <div class="rs-cell rs-cell-req" data-label="What it required">
+                            <p>Accommodate diverse return-to-work goals</p>
+                        </div>
+                        <span class="rs-arrow" aria-hidden="true">→</span>
+                        <div class="rs-cell rs-cell-design" data-label="What I designed">
+                            <p>Onboarding that starts with why a parent is returning, not just their resumé</p>
+                        </div>
+                    </div>
+                
+                    <div class="rs-trace-row">
+                        <div class="rs-cell rs-cell-finding" data-label="What we heard">
+                            <p>Parents worry how employers read a career break</p>
+                        </div>
+                        <span class="rs-arrow" aria-hidden="true">→</span>
+                        <div class="rs-cell rs-cell-req" data-label="What it required">
+                            <p>Peer and community support connections</p>
+                        </div>
+                        <span class="rs-arrow" aria-hidden="true">→</span>
+                        <div class="rs-cell rs-cell-design" data-label="What I designed">
+                            <p>Mentor matches with a visible reason behind each one, and a low-pressure way to book</p>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                 
+                
             </div>
         </div>
     </div>
@@ -308,7 +462,7 @@
                     <button class="component-dot" type="button" aria-label="Show component image 2"></button>
                     <button class="component-dot" type="button" aria-label="Show component image 3"></button>
                 </div>
-                <p class="shot-caption">Reusable components and interaction states across the Trellis experience.</p>
+                <p class="shot-caption">Reusable components and interaction states across the Trellis experience</p>
 
             </div>
         </div>
@@ -345,7 +499,7 @@
                             </p>
                         </figcaption>
                         <div class="shot-frame">
-                            <img src="images/trellis/pre-account-pages.png"
+                            <img src="images/trellis/pre-account-pages (1).png"
                                  alt="Trellis pre-account pages: Home, How it works, Stories, Resources, FAQ, and Get started">
                         </div>
                     </figure>
@@ -357,7 +511,7 @@
                               I broke onboarding into one question per screen, covering why someone is returning to work, their professional field, career break length, current progress, and the support they're looking for. These responses help inform the mentor matching process.                            </p>
                         </figcaption>
                         <div class="shot-frame">
-                            <img src="images/trellis/onboarding flow.png"
+                            <img src="images/trellis/onboarding-flow (1).png"
                                  alt="Trellis onboarding screens asking why the parent is here, their field, career break length, progress so far, and the support they want">
                         </div>
                     </figure>
@@ -369,7 +523,7 @@
                               The dashboard presents three recommended mentors, with one highlighted as the best match. I included the matching criteria so users can understand why each mentor was recommended, along with clear next steps to learn more and book a session.                            </p>
                         </figcaption>
                         <div class="shot-frame">
-                            <img src="images/trellis/Booking flow.png"
+                            <img src="images/trellis/Booking flow (3).png"
                                  alt="Trellis dashboard with mentors and booking flow">
                         </div>
                     </figure>
@@ -489,18 +643,18 @@
             <div class="problem-row">
 
                 <span class="horizontal-bold">PROTOTYPE</span>
-                <h2>I coded my own version of booking to see it work</h2>
+                <h2>I coded my designs into a working prototype</h2>
 
                 <div class="mini-description">
                     <p>
-                      I transformed my Figma designs into a fully functional website using HTML, CSS, and JavaScript, using Claude to support and speed up the development. Try out the experience by creating an account and booking a session with a mentor!                    </p>
+                      I turned my Figma designs into a working site with HTML, CSS, and JavaScript, using Claude to speed up development. Create an account and book a session with a mentor to try it yourself.                    </p>
                 </div>
 
          
                 <img src="images/trellis/trellis_laptop.png"
-                alt="Trellis pre-account pages: Home, How it works, Stories, Resources, FAQ, and Get started">
+                alt="The Trellis prototype running on a laptop">
 
-             
+
 
                 <!-- Call to action -->
                 <div class="cta">
@@ -544,8 +698,9 @@
                     <p>
                         Building the booking flow in code made me think about things Figma lets you skip,
                         like what the confirmation should say for every possible day and time, and what
-                        happens when someone cancels. Next up is testing with real parents to see whether
-                        the matches actually help them feel clearer about their next step.
+                        happens when someone cancels. Next up is task-based usability testing with real
+                        parents, tracking completion rate, time on task, and confidence ratings, to see
+                        whether the matches help them feel clearer about their next step.
                     </p>
                 </div>
 

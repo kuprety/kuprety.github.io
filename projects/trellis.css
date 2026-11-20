@@ -2587,7 +2587,7 @@ body { background-color: var(--trellis-cream); }
   padding: 0;
   overflow: hidden;
   background: var(--trellis-mint);
-  border: 1px solid rgba(7, 114, 79, .10);
+  border: 1px solid #fef1c4;
   border-radius: 18px;
 }
 .shot-frame img {
@@ -2903,4 +2903,286 @@ body { background-color: var(--trellis-cream); }
   .logo-row { grid-template-columns: 1fr; }
   .palette { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .cta-primary { padding: 14px 32px; }
+}
+/* ==========================================================
+   RESEARCH SECTION REDESIGN
+   Replace everything from "RESEARCH SECTION ADDITIONS" to the
+   end of trellis.css with this file's contents.
+   (Old .method, .details/.detail finding styles, and .trace
+   styles are no longer used by the new HTML.)
+   ========================================================== */
+
+/* Shared: neutralise the global p width / h3 margins inside these blocks */
+.rs-flow p, .rs-stat p, .rs-finding p, .rs-trace p { width: auto; max-width: none; margin: 0; }
+.rs-flow h3, .rs-finding h3 { margin: 0; }
+
+/* ---------- 1. Research approach: stat band + process cards ---------- */
+.rs-band {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 40px;
+  padding: 34px 12px;
+  border-radius: 26px;
+  background: var(--trellis-forest);
+  color: #ffffff;
+}
+.rs-stat {
+  padding: 4px 24px;
+  text-align: center;
+}
+.rs-stat + .rs-stat { border-left: 1px solid rgba(255, 255, 255, .28); }
+.rs-stat-num {
+  display: block;
+  color: var(--trellis-sage);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: clamp(2.6rem, 5vw, 3.8rem);
+  font-weight: 600;
+  line-height: 1;
+}
+.rs-stat p {
+  margin: 10px auto 0;
+  max-width: 220px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: center;
+}
+
+.rs-flow {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 30px;
+  margin: 34px 0 0;
+  padding: 0;
+}
+.rs-flow li {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 26px 24px 28px;
+  border: 1px solid #d8e9dd;
+  border-top: 6px solid var(--trellis-sage);
+  border-radius: 20px;
+  background: #ffffff;
+  text-align: left;
+}
+.rs-flow li:last-child {
+  background: #ffffff;
+  border-top-color: var(--trellis-forest);
+}
+/* chevron connector between cards */
+.rs-flow li:not(:last-child)::after {
+  content: "\203A";
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+  border-radius: 50%;
+  background: var(--trellis-sage);
+  color: #06402c;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+.rs-flow .rs-node {
+  position: static;
+  width: 38px;
+  height: 38px;
+  margin-bottom: 16px;
+  box-shadow: none;
+  font-size: 1.05rem;
+}
+.rs-flow li:last-child .rs-node { background: var(--trellis-forest); color: #fff; }
+.rs-flow h3 {
+  margin: 0 0 8px;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.rs-flow p {
+  font-size: 15.5px;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+/* ---------- 2. What we learned: four bold colour cards ---------- */
+.rs-findings {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.rs-finding {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  min-height: 230px;
+  padding: 32px 34px 34px;
+  border-radius: 24px;
+  text-align: left;
+}
+.rs-finding h3 {
+  max-width: 82%;
+  margin-bottom: 12px;
+  color: inherit;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.rs-finding p {
+  position: relative;
+  z-index: 1;
+  color: inherit;
+  font-size: 16.6px;
+  line-height: 1.55rem;
+  font-weight: 400;
+}
+.rs-finding em { font-style: italic; font-weight: 500; }
+.rs-tag {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .55);
+  color: inherit;
+  font-size: 11pt;
+  font-weight: 600;
+  letter-spacing: .02em;
+}
+/* oversized numeral as the visual anchor */
+.rs-big {
+  position: absolute;
+  top: -6px;
+  right: 22px;
+  color: inherit;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 8.5rem;
+  font-weight: 700;
+  line-height: 1;
+  opacity: .16;
+  pointer-events: none;
+}
+.rs-f1 { background: #bef0c8; color: #131416; }
+.rs-f2 { background: #ffdfef; color: #131416; }
+.rs-f3 { background: #e5d8fa; color: #131416; }
+.rs-f4 { background: #fcecb1; color: #131416; }
+
+/* ---------- 3. How we got there: finding > requirement > design ---------- */
+.rs-trace {
+  display: grid;
+  gap: 16px;
+  margin-top: 44px;
+}
+.rs-trace-head,
+.rs-trace-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 40px minmax(0, 1fr) 40px minmax(0, 1.2fr);
+  align-items: stretch;
+}
+.rs-trace-head {
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--trellis-sage);
+}
+.rs-trace-head span {
+  color: var(--trellis-forest);
+  font-size: 13pt;
+  font-weight: 600;
+  text-align: left;
+}
+.rs-cell {
+  box-sizing: border-box;
+  padding: 22px 24px;
+  border-radius: 18px;
+  text-align: left;
+}
+.rs-cell p {
+  font-size: 16px;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+.rs-cell::before { display: none; }
+
+.rs-cell-finding {
+  background: #ffffff;
+  border: 1px solid #d8e9dd;
+  border-left: 6px solid var(--trellis-wisteria);
+}
+.rs-cell-req {
+  background: #f2edfb;
+  color: #2b1a54;
+}
+.rs-cell-design {
+  background: var(--trellis-sage);
+  color: #ffffff;
+  box-shadow: 0 10px 24px rgba(7, 114, 79, .22);
+}
+.rs-cell-design p { font-weight: 500; }
+
+.rs-arrow {
+  display: grid;
+  place-items: center;
+  align-self: center;
+  justify-self: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--trellis-wisteria);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .rs-flow { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rs-flow li:nth-child(2)::after { display: none; }
+  .rs-big { font-size: 6.5rem; }
+}
+@media (max-width: 650px) {
+  .rs-band { grid-template-columns: 1fr; padding: 14px 8px; }
+  .rs-stat { padding: 20px 16px; }
+  .rs-stat + .rs-stat { border-left: 0; border-top: 1px solid rgba(255, 255, 255, .28); }
+
+  .rs-flow { grid-template-columns: 1fr; gap: 38px; }
+  .rs-flow li:nth-child(2)::after { display: grid; }
+  .rs-flow li:not(:last-child)::after {
+    top: auto;
+    right: auto;
+    bottom: -34px;
+    left: 50%;
+    margin: 0 0 0 -15px;
+    transform: rotate(90deg);
+  }
+
+  .rs-findings { grid-template-columns: 1fr; }
+  .rs-finding { min-height: 0; padding: 26px 24px 28px; }
+  .rs-finding h3 { max-width: 75%; font-size: 1.3rem; }
+
+  /* trace stacks; labels come back on each cell */
+  .rs-trace { gap: 0; }
+  .rs-trace-head { display: none; }
+  .rs-trace-row { grid-template-columns: 1fr; gap: 0; margin-bottom: 30px; }
+  .rs-arrow { transform: rotate(90deg); margin: 8px 0; }
+  .rs-cell::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 6px;
+    font-size: 11pt;
+    font-weight: 600;
+    opacity: .75;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rs-flow *, .rs-finding, .rs-cell { transition: none; }
 }
