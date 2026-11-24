@@ -38,6 +38,10 @@ nav {
     height: 80px;
 }
 
+a#name.kirang-haerang-regular {
+    font-size: 1.9rem; /* bigger and absolute */
+}
+
 
 #name img#logo {
     width: 19px;        /* keeps it 40px wide */
@@ -340,12 +344,6 @@ footer .footer-links a {
 
   }
 
-  a#name.kirang-haerang-regular {
-    font-size: 1.9rem; /* bigger and absolute */
-}
-
-
-
 
 /* Larger desktop screens */
 @media (min-width: 1500px) {
@@ -367,4 +365,33 @@ footer .footer-links a {
     .text-container p {
         font-size: 15pt;
     }
+}
+
+
+
+
+
+/* Tablet + mobile screens */
+@media (max-width: 1032px) {
+   
+
+    #projects-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4.5%;          
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 0%;
+    }
+
+
+    .project-link {
+        display: block;
+        width: 56%;
+        text-decoration: none;
+        color: inherit;
+    }
+
+
 }

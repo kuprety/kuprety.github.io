@@ -1138,3 +1138,29 @@ marquee {
     .pp-drop { opacity: 1; animation: none !important; }
     .pp-jiggle { animation: none !important; }
 }
+
+
+/* Tablet + mobile screens */
+@media (max-width: 1032px) {
+   
+
+    #projects-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4.5%;          
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 0%;
+    }
+
+
+    .project-link {
+        display: block;
+        width: 56%;
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+}

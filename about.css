@@ -315,3 +315,18 @@ header {
   a#name.kirang-haerang-regular {
     font-size: 1.9rem; /* bigger and absolute */
 }
+
+
+
+/* Tablet + mobile screens */
+@media (max-width: 1032px) {
+   
+
+    img[src="images/panda.gif"] {
+        margin-top: -6%;    
+        right: 62%;
+        width: 4.5%;
+    }
+
+
+}

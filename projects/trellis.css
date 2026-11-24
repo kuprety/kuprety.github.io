@@ -26,6 +26,7 @@
   
   
   
+  
   body {
   
   margin: 0;
@@ -83,29 +84,17 @@
   
   
   nav {
-  
   margin-right: 2.8%;
-  
   margin-left: auto;
-  
   padding-left: 1.5%;
-  
   padding-right: 1.5%;
-  
   padding-bottom: 1.0%;
-  
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
-  
-  
   padding-top: 1.0%;
-  
-  
-  
+
   word-spacing: 1em;
-  
   height: 80px;
-  
   }
   
   
@@ -391,7 +380,7 @@
   
   
   
-  
+
   
   
   
@@ -3186,3 +3175,4 @@ body { background-color: var(--trellis-cream); }
 @media (prefers-reduced-motion: reduce) {
   .rs-flow *, .rs-finding, .rs-cell { transition: none; }
 }
+
